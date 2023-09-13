@@ -4,7 +4,7 @@ unlink('docs', recursive = TRUE)
 
 x = readLines('index.Rmd')
 i = 1
-s = paste0('title: "稅法專題研究 (', c('Bootstrap', 'Tufte'), ' Style)"')
+s = paste0('title: "財政法專題研究 (', c('Bootstrap', 'Tufte'), ' Style)"')
 for (fmt in c('html_book', 'tufte_html_book')) {
   unlink('docs', recursive = TRUE)
   file.copy('index.Rmd', '_index.Rmd')

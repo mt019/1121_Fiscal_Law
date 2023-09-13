@@ -1,44 +1,20 @@
 ---
-title: "1112 稅法專題研究"
-author: "柯老師"
+title: "1121 財政法專題研究"
+author: [林明鏘,陳衍任]
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 output: bookdown::gitbook
 link-citations: true
-description: "111-2 學期【稅法專題研究】課堂筆記。采用R的bookdown制作，输出格式为bookdown::gitbook."
+description: "111-2 學期【財政法專題研究】課堂筆記。采用R的bookdown制作，输出格式为bookdown::gitbook."
 ---
 
 # Preface {-}
 
-稅法專題研究
+財政法專題研究
 
 
-111-2 學期《稅法專題研究》課堂筆記。采用R的bookdown製作，輸出格式為bookdown::gitbook。
+111-2 學期《財政法專題研究》課堂筆記。采用R的bookdown製作，輸出格式為bookdown::gitbook。
 
 
-3/7 排報告日期
-
-3/14 ~ 5/30（6/6） 報告
-
-1. 確定方向
-2. 擬定大綱
-3. 内容填充
-
-要一直不斷地寫東西
-寫東西，思考才縝密
-
-學而不思則罔，思而不學則殆
-
-要討論，看到不同面嚮的思考，整并到你的文章中去
-
-各位同學要練習常寫作
-
-看到思考的盲點
-
-老師看自己的東西，因爲會覺得自己以前寫的，也可以，但是有另外的想法
-
-思考都是會轉變的
-
-教學相長，因爲要寫，所以學到更多
 
