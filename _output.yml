@@ -9,7 +9,7 @@ bookdown::gitbook:
         <li><a href="./">財政法專題研究</a></li>
       after: |
         <li><a href="https://github.com/mt019/1121_Fiscal_Law_Seminar" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/mt019/1121_Fiscal_Law_Seminar/edit/master/%s
+    edit: https://github.com/mt019/1121_Fiscal_Law_Seminar/edit/main/%s
     download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:
