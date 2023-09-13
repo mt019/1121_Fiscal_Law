@@ -6,7 +6,7 @@ site: bookdown::bookdown_site
 documentclass: book
 output: bookdown::gitbook
 link-citations: true
-description: "111-2 學期【財政法專題研究】課堂筆記。采用R的bookdown制作，输出格式为bookdown::gitbook."
+description: "112-1 學期【財政法專題研究】課堂筆記。采用R的bookdown制作，输出格式为bookdown::gitbook."
 ---
 
 # Preface {-}
@@ -14,7 +14,7 @@ description: "111-2 學期【財政法專題研究】課堂筆記。采用R的bo
 財政法專題研究
 
 
-111-2 學期《財政法專題研究》課堂筆記。采用R的bookdown製作，輸出格式為bookdown::gitbook。
+112-1 學期《財政法專題研究》課堂筆記。采用R的bookdown製作，輸出格式為bookdown::gitbook。
 
 
 
