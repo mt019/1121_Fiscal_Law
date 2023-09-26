@@ -129,37 +129,6 @@
       });
     }  */}}
 
-{{/*  var coll = document.getElementsByClassName("collapsible");
-var i;
-
-document.addEventListener("click", function(event) {
-  for (i = 0; i < coll.length; i++) {
-    var content = coll[i].nextElementSibling;
-    if (event.target != coll[i] && event.target != content) {
-      // 如果点击的位置不在 content 区域之内，折叠 content
-      if (coll[i].classList.contains("active")) {
-        coll[i].classList.remove("active");
-        content.style.display = "none";
-        
-        // 将页面滚动到对应的 collapsible 按钮位置
-        coll[i].scrollIntoView();
-      }
-    }
-  }
-});
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}  */}}
-
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
@@ -172,8 +141,9 @@ document.addEventListener("click", function(event) {
         coll[i].classList.remove("active");
         content.style.display = "none";
         
-        // 将页面滚动到对应的 collapsible 按钮位置
-        coll[i].scrollIntoView();
+        // 将页面滚动到对应的 collapsible 按钮位置的上一行
+        coll[i].scrollIntoView({ block: "start" });
+
       }
     }
   }
