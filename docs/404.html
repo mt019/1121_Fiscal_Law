@@ -77,7 +77,10 @@
 <li class="chapter" data-level="1" data-path="第一周.html"><a href="第一周.html"><i class="fa fa-check"></i><b>1</b> W01_0905</a></li>
 <li class="chapter" data-level="2" data-path="第二周.html"><a href="第二周.html"><i class="fa fa-check"></i><b>2</b> W02_0912</a></li>
 <li class="chapter" data-level="3" data-path="蔡茂寅-預算法.html"><a href="蔡茂寅-預算法.html"><i class="fa fa-check"></i><b>3</b> 蔡茂寅 預算法</a></li>
-<li class="chapter" data-level="4" data-path="柯格鐘-地方財政.html"><a href="柯格鐘-地方財政.html"><i class="fa fa-check"></i><b>4</b> 柯格鐘 地方財政</a></li>
+<li class="chapter" data-level="4" data-path="柯格鐘-地方財政.html"><a href="柯格鐘-地方財政.html"><i class="fa fa-check"></i><b>4</b> 柯格鐘 地方財政</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="柯格鐘-地方財政.html"><a href="柯格鐘-地方財政.html#憲法上的財政基礎107109110111"><i class="fa fa-check"></i><b>4.1</b> 憲法上的財政基礎（107+109+110+111）</a></li>
+</ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/mt019/1121_Fiscal_Law_Seminar" target="blank">Published with bookdown</a></li>
 
@@ -105,7 +108,7 @@
 the table of contents to find the page you are looking for.</p>
 </div>
 <script>
-
+{{/*  
     var coll = document.getElementsByClassName("collapsible");
     var i;
     
@@ -119,8 +122,34 @@ the table of contents to find the page you are looking for.</p>
           content.style.display = "block";
         }
       });
-    }
+    }  */}}
     
+    var coll = document.getElementsByClassName("collapsible");
+var i;
+
+document.addEventListener("click", function(event) {
+  for (i = 0; i < coll.length; i++) {
+    var content = coll[i].nextElementSibling;
+    if (event.target != coll[i] && event.target != content) {
+      // 如果点击的位置不在 content 区域之内，折叠 content
+      coll[i].classList.remove("active");
+      content.style.display = "none";
+    }
+  }
+});
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
     </script>
             </section>
 

@@ -1,5 +1,5 @@
 <script>
-
+{{/*  
     var coll = document.getElementsByClassName("collapsible");
     var i;
     
@@ -13,6 +13,32 @@
           content.style.display = "block";
         }
       });
-    }
+    }  */}}
     
+    var coll = document.getElementsByClassName("collapsible");
+var i;
+
+document.addEventListener("click", function(event) {
+  for (i = 0; i < coll.length; i++) {
+    var content = coll[i].nextElementSibling;
+    if (event.target != coll[i] && event.target != content) {
+      // 如果点击的位置不在 content 区域之内，折叠 content
+      coll[i].classList.remove("active");
+      content.style.display = "none";
+    }
+  }
+});
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
     </script>
