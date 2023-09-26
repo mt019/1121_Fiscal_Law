@@ -14,8 +14,8 @@
         }
       });
     }  */}}
-{{/*      
-    var coll = document.getElementsByClassName("collapsible");
+
+{{/*  var coll = document.getElementsByClassName("collapsible");
 var i;
 
 document.addEventListener("click", function(event) {
@@ -23,8 +23,13 @@ document.addEventListener("click", function(event) {
     var content = coll[i].nextElementSibling;
     if (event.target != coll[i] && event.target != content) {
       // 如果点击的位置不在 content 区域之内，折叠 content
-      coll[i].classList.remove("active");
-      content.style.display = "none";
+      if (coll[i].classList.contains("active")) {
+        coll[i].classList.remove("active");
+        content.style.display = "none";
+        
+        // 将页面滚动到对应的 collapsible 按钮位置
+        coll[i].scrollIntoView();
+      }
     }
   }
 });
@@ -61,7 +66,9 @@ document.addEventListener("click", function(event) {
 });
 
 for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
+  coll[i].addEventListener("click", function(e) {
+    e.stopPropagation(); // 阻止点击 collapsible 按钮时触发全局的点击事件
+    
     this.classList.toggle("active");
     var content = this.nextElementSibling;
     if (content.style.display === "block") {
@@ -69,6 +76,14 @@ for (i = 0; i < coll.length; i++) {
     } else {
       content.style.display = "block";
     }
+  });
+}
+
+// 在 content 区域内点击不触发折叠
+for (i = 0; i < coll.length; i++) {
+  var content = coll[i].nextElementSibling;
+  content.addEventListener("click", function(e) {
+    e.stopPropagation(); // 阻止点击 content 区域时触发全局的点击事件
   });
 }
 
