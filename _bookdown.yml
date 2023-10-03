@@ -9,3 +9,4 @@ language:
     edit: "編輯"
     chapter_name: ["第 ", " 章"]
 output_dir: "docs"
+rmd_subdir: yes
