@@ -1,0 +1,5 @@
+[8] Config.pm:306> INFO - This is Biber 2.18
+[9] Config.pm:309> INFO - Logfile is '½×ªÅ®ð¦Ã¬V¨¾¨î°òª÷.blg'
+[599] biber-MSWIN32:340> INFO - === 
+[2526] Utils.pm:410> ERROR - Cannot find '½×ªÅ®ð¦Ã¬V¨¾¨î°òª÷.bcf'!
+[2527] Biber.pm:135> INFO - ERRORS: 1
