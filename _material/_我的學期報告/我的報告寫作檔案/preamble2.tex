@@ -2,7 +2,7 @@
 % \documentclass[UTF8,a4paper,14pt]{ctexart}
 \usepackage[a4paper, margin={1in,1.5in}]{geometry}
 \usepackage[fontsize=12pt]{fontsize}
-\renewcommand{\footnotesize}{\fontsize{8pt}{11pt}\selectfont}
+\renewcommand{\footnotesize}{\fontsize{10pt}{12pt}\selectfont}
 \usepackage{
   url}
 
@@ -47,8 +47,6 @@
 % 預設第一段不首行縮排，如果想讓第一段首行縮排，則可以使用 \usepackage{indentfirst}。
 % 如果想讓某一段不首行縮排，則可以在該段前加上 \noindent。
 % 如果想讓整篇文章都首行不縮排，則：\setlength{\parindent}{0pt}
-
-
 
 
 % \newcommand{\subsubsubsection}[1]{\paragraph{#1}\mbox{}\\}
@@ -206,6 +204,8 @@
 \DeclareFieldFormat[online]{title}{#1}
 
 \DeclareFieldFormat[article]{title}{〈#1〉\isdot}
+\DeclareFieldFormat[thesis]{title}{〈#1〉\isdot}
+
 
 % 调整参考文献条目的缩进
 \setlength{\bibitemindent}{2em} % 调整首行缩进

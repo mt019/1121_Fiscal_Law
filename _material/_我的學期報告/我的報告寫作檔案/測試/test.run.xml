@@ -55,10 +55,8 @@
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
       <file>standard.bbx</file>
-      <file>authoryear.bbx</file>
-      <file>gb7714-2015ay.bbx</file>
-      <file>authoryear-comp.cbx</file>
-      <file>gb7714-2015ay.cbx</file>
+      <file>numeric.bbx</file>
+      <file>numeric.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
     </requires>
@@ -82,7 +80,7 @@
       <file>test.bcf</file>
     </requires>
     <requires type="editable">
-      <file>R10A21126.bib</file>
+      <file>test.bib</file>
     </requires>
   </external>
 </requests>

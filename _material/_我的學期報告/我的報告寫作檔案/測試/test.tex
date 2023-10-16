@@ -1,13 +1,35 @@
-\documentclass{ctexart}
-\usepackage[showframe]{geometry}
-\usepackage{enumitem}
-\AddEnumerateCounter{\chinese}{\chinese}{}
+\documentclass{article}
+
+\usepackage[style=numeric, defernumbers=true]{biblatex}
+
+\usepackage{filecontents}
+\begin{filecontents}{\jobname.bib}
+@Article{EulerE,
+  author = {Euler, Leonhard},
+  title = {All about E},
+  journal = {Math.\ Psychol.},
+  year = {1776},
+  volume = {4},
+  pages={1--2718},
+  keywords={cited},
+}
+@Book{BourbakiPure,
+  author={Bourbaki, Nicolas},
+  title={A Course of Very Pure Mathematics},
+  year={1956},
+  publisher={Erehwon Press},
+  address={Paris},
+  keywords={additional},
+}
+\end{filecontents}
+\addbibresource{\jobname.bib}
+
+
 
 \begin{document}
+\textcite{EulerE} studied the constant $e$.
 
-\begin{enumerate}[label = \chinese*、]
-  \item 第一行
-  \item 第二行
-\end{enumerate}
-
+\printbibliography[keyword=cited,title=Cited Works]
+\nocite{BourbakiPure}
+\printbibliography[keyword=additional,title=Additional References]
 \end{document}

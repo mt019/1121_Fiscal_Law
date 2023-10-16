@@ -1,0 +1,18 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'test.blg'
+[166] biber-MSWIN32:340> INFO - === 
+[223] Biber.pm:418> INFO - Reading 'test.bcf'
+[404] Biber.pm:978> INFO - Found 2 citekeys in bib section 0
+[429] Biber.pm:4401> INFO - Processing section 0
+[447] Biber.pm:4592> INFO - Looking for bibtex file 'test.bib' for section 0
+[517] bibtex.pm:1713> INFO - LaTeX decoding ...
+[531] bibtex.pm:1518> INFO - Found BibTeX data source 'test.bib'
+[546] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[546] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[546] Biber.pm:4221> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[546] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
+[547] bbl.pm:654> INFO - Writing 'test.bbl' with encoding 'UTF-8'
+[547] bbl.pm:757> INFO - Output to test.bbl
+[547] Biber.pm:130> WARN - I didn't find a database entry for 'EulerE' (section 0)
+[547] Biber.pm:130> WARN - I didn't find a database entry for 'BourbakiPure' (section 0)
+[547] Biber.pm:132> INFO - WARNINGS: 2
