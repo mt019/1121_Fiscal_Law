@@ -1,14 +1,14 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
-[1] Config.pm:309> INFO - Logfile is 'R10A21126.blg'
-[215] biber-MSWIN32:340> INFO - === 
-[295] Biber.pm:418> INFO - Reading 'R10A21126.bcf'
-[640] Biber.pm:975> INFO - Using all citekeys in bib section 0
-[758] Biber.pm:4401> INFO - Processing section 0
-[796] Biber.pm:4592> INFO - Looking for bibtex file 'R10A21126.bib' for section 0
-[897] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1016] bibtex.pm:1518> INFO - Found BibTeX data source 'R10A21126.bib'
-[1716] UCollate.pm:68> INFO - Overriding locale 'zh__pinyin' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1717] UCollate.pm:68> INFO - Overriding locale 'zh__pinyin' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1717] Biber.pm:4221> INFO - Sorting list 'gb7714-2015/global//global/global' of type 'entry' with template 'gb7714-2015' and locale 'zh__pinyin'
-[1786] bbl.pm:654> INFO - Writing 'R10A21126.bbl' with encoding 'UTF-8'
-[1829] bbl.pm:757> INFO - Output to R10A21126.bbl
+[0] Config.pm:309> INFO - Logfile is 'R10A21126.blg'
+[195] biber-MSWIN32:340> INFO - === 
+[247] Biber.pm:418> INFO - Reading 'R10A21126.bcf'
+[492] Biber.pm:975> INFO - Using all citekeys in bib section 0
+[578] Biber.pm:4401> INFO - Processing section 0
+[597] Biber.pm:4592> INFO - Looking for bibtex file 'R10A21126.bib' for section 0
+[667] bibtex.pm:1713> INFO - LaTeX decoding ...
+[763] bibtex.pm:1518> INFO - Found BibTeX data source 'R10A21126.bib'
+[1296] UCollate.pm:68> INFO - Overriding locale 'zh__stroke' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1296] UCollate.pm:68> INFO - Overriding locale 'zh__stroke' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1296] Biber.pm:4221> INFO - Sorting list 'gb7714-2015/global//global/global' of type 'entry' with template 'gb7714-2015' and locale 'zh__stroke'
+[1347] bbl.pm:654> INFO - Writing 'R10A21126.bbl' with encoding 'UTF-8'
+[1377] bbl.pm:757> INFO - Output to R10A21126.bbl

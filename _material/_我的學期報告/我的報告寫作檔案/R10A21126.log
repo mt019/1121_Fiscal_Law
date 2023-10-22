@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.25)  16 OCT 2023 18:58
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.25)  19 OCT 2023 20:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1214,25 +1214,17 @@ LaTeX Warning: Empty bibliography on input line 389.
 [16] 
 AED: lastpage setting LastPage
 [17] [18] (./R10A21126.aux)
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `R10A21126.out' has not changed.
 (rerunfilecheck)             Checksum: 45945B4628457E3146312D741C630C29;1985.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                R10A21126
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'R10A21126.run.xml'.
 \openout1 = `R10A21126.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28234 strings out of 475848
- 631969 string characters out of 5801585
- 1582178 words of memory out of 5000000
- 48927 multiletter control sequences out of 15000+600000
+ 28266 strings out of 475848
+ 633014 string characters out of 5801585
+ 1583256 words of memory out of 5000000
+ 48959 multiletter control sequences out of 15000+600000
  475927 words of font info for 103 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  77i,11n,94p,832b,5201s stack positions out of 10000i,1000n,20000p,200000b,200000s
