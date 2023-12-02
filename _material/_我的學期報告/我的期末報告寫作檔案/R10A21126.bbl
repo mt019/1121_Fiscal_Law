@@ -74,7 +74,6 @@
       \field{year}{2018}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{urlraw}
       \verb https://www.cna.com.tw/news/ahel/201807290090.aspx
       \endverb
@@ -1373,7 +1372,7 @@
       \field{lansortorder}{1}
       \field{month}{1}
       \field{title}{我國非營業特種基金監督機制之研究}
-      \field{type}{phdthesis}
+      \field{type}{博士學位論文}
       \field{urlday}{12}
       \field{urlmonth}{10}
       \field{urlyear}{2023}

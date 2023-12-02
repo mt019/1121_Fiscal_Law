@@ -197,7 +197,12 @@
 
 
 
-\usepackage[style=gb7714-2015ay-ntulaw, sortlocale=zh__stroke,citestyle=gb7714-2015ay, gbalign=right, gbtype = false, mergedate=true, url = false, backend=biber, defernumbers = true]{biblatex}
+\usepackage[
+  style=gb7714-2015ay-ntulaw, 
+gbfootbibfmt = true,
+sortlocale=zh__stroke,
+citestyle=gb7714-2015ay-ntulaw,
+ gbalign=right, gbtype = false, mergedate=true, url = false, backend=biber, defernumbers = true]{biblatex}
 
 % \usepackage[style=gb7714-2015ay, sortlocale=zh__stroke,citestyle=gb7714-2015ay, gbalign=right, gbtype = false, mergedate=true, url = false, backend=biber, defernumbers = true]{biblatex}
 \addbibresource{R10A21126.bib}
@@ -248,7 +253,7 @@
 %最后一个姓名与等之间的符号(间隔符)
 \DeclareDelimFormat[cite,parencite,pagescite]{andothersdelim}{，}%
 \DeclareDelimFormat[textcite]{andothersdelim}{，}%
-
+\DeclareDelimFormat[cite,parencite,pagescite]{addperiod}{。}%
 \DeclareDelimFormat{nametitledelim}{\addcomma\space}
 
 
@@ -279,19 +284,31 @@
 
 
 
+%%全局标点设置
+\DeclareDelimFormat{nameyeardelim}{，}%\addcomma\addspace
+\DeclareDelimFormat[bib,biblist]{nameyeardelim}{，}%\addcomma\addspace
+\DeclareDelimFormat{bibpagespunct}{\iffieldequalstr{userd}{chinese}{，}{，}}%\addcomma\addspace
+\renewcommand*{\newunitpunct}{，}%\addcomma\space %，
+\renewcommand*{\finentrypunct}{\iffieldequalstr{userd}{chinese}{。}{\adddot}}
+\renewcommand*{\bibpagerefpunct}{\iffieldequalstr{userd}{chinese}{。}{\adddot}}
+\DeclareDelimFormat{multinamedelim}{、}%[bib,biblist]
+\DeclareDelimFormat{finalnamedelim}{，}
+\DeclareDelimFormat{andothersdelim}{，}
+
 
 % 标点类型的控制（注意：全局字体能控制标点的字体）
 % 标题与文献类型表示符之间的间隔符 title<titletypedelim>[J]
 \DeclareDelimFormat[bib,biblist]{titletypedelim}{\space}
 %文献表各条文献中各单元间隔标点设置（与异步标点机制相关的）
-\renewcommand*{\newunitpunct}{，}%\addcomma\space %，
-\renewcommand*{\finentrypunct}{。}
+% \renewcommand*{\newunitpunct}{，}%\addcomma\space %，
+% % \renewcommand*{\finentrypunct}{。}
+% \renewcommand*{\finentrypunct}{\iffieldequalstr{userd}{chinese}{。}{\adddot}}
 
 
 %姓名格式相关的标点
 \DeclareDelimFormat[bib,biblist]{nameyeardelim}{\addspace}%\addcomma\addspace
-\DeclareDelimFormat[bib,biblist]{multinamedelim}{，}%[bib,biblist]
-\DeclareDelimFormat[bib,biblist]{finalnamedelim}{，}
+\DeclareDelimFormat[bib,biblist]{multinamedelim}{、}%[bib,biblist]
+\DeclareDelimFormat[bib,biblist]{finalnamedelim}{、}
 \DeclareDelimFormat[bib,biblist]{andothersdelim}{，}
 %姓名内部的相关标点，包括如下等设置
 %注意这类设置与gbnamefmt选项相关，不同的选项值对应不同的gb...localset
@@ -349,6 +366,8 @@
 %   \printfield{number}%
 %   \bibstring{qicn}%
 % }%
+
+
 \renewbibmacro*{volume+number+eid}{%
   \printfield{volume}%
   \iffieldundef{volume}
@@ -371,5 +390,7 @@
   % \setunit*{，}%
   % \usebibmacro{date}%
   \newunit}
+
+\DeclareFieldFormat{pages}{#1}%去掉前面引导页码的pp.等字符，\mkpageprefix[bookpagination]{#1}
 
   \usepackage{zhlipsum}

@@ -41,7 +41,7 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
       <file>R10A21126.bcf</file>
@@ -58,7 +58,7 @@
       <file>authoryear.bbx</file>
       <file>gb7714-2015ay-ntulaw.bbx</file>
       <file>authoryear-comp.cbx</file>
-      <file>gb7714-2015ay.cbx</file>
+      <file>gb7714-2015ay-ntulaw.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
     </requires>

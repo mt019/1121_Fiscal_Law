@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.25)  2 DEC 2023 16:10
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.25)  2 DEC 2023 19:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -894,7 +894,7 @@ File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'gb7714-2015ay-ntulaw'...
 Package biblatex Info: ... file 'gb7714-2015ay-ntulaw.bbx' found.
  (./gb7714-2015ay-ntulaw.bbx
-File: gb7714-2015ay.bbx 2023/09/10 v1.1obiblatex bibliography style
+File: gb7714-2015ay-ntulaw.bbx 2023/09/10 v1.1obiblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
  (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
@@ -927,11 +927,16 @@ Package biblatex Info: Delimiter 'finalnamedelim' in context '' already defined,
 Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting.
 Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defined, overwriting.
 Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already defined, overwriting.
+
+
+Package biblatex Warning: Macro 'thesistitle' undefined.
+(biblatex)                Using \newbibmacro.
+
 )
-Package biblatex Info: Trying to load citation style 'gb7714-2015ay'...
-Package biblatex Info: ... file 'gb7714-2015ay.cbx' found.
- (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/biblatex-gb7714-2015/gb7714-2015ay.cbx
-File: gb7714-2015.cbx a biblatex citation style for GB/T 7714-2015
+Package biblatex Info: Trying to load citation style 'gb7714-2015ay-ntulaw'...
+Package biblatex Info: ... file 'gb7714-2015ay-ntulaw.cbx' found.
+ (./gb7714-2015ay-ntulaw.cbx
+File: gb7714-2015-ntulaw.cbx a biblatex citation style for GB/T 7714-2015
 Package biblatex Info: Trying to load citation style 'authoryear-comp'...
 Package biblatex Info: ... file 'authoryear-comp.cbx' found.
  (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/biblatex/cbx/authoryear-comp.cbx
@@ -950,6 +955,15 @@ Package biblatex Info: Redefining '\footcitetexts'.
 Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Delimiter 'nameyeardelim' in context 'textcite' already defined, overwriting.
+
+
+Package biblatex Warning: Macro 'textcite' already defined.
+(biblatex)                Using \renewbibmacro.
+
+
+Package biblatex Warning: Macro 'textcite:postnote' already defined.
+(biblatex)                Using \renewbibmacro.
+
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\cbx@textcite'.
@@ -959,6 +973,7 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
  (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )
+Package biblatex Info: Redefining '\footfullcite'.
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Document encoding is UTF8 ....
@@ -969,26 +984,42 @@ Package biblatex Info: ... and expl3
  (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
 ))
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'cite' already defined, overwriting on input line 245.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'parencite' already defined, overwriting on input line 245.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'pagescite' already defined, overwriting on input line 245.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'textcite' already defined, overwriting on input line 247.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'textcite' already defined, overwriting on input line 250.
-Package biblatex Info: Delimiter 'nametitledelim' in context '' already defined, overwriting on input line 252.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'cite' already defined, overwriting on input line 271.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'parencite' already defined, overwriting on input line 271.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'pagescite' already defined, overwriting on input line 271.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'textcite' already defined, overwriting on input line 273.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'cite' already defined, overwriting on input line 275.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'parencite' already defined, overwriting on input line 275.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'pagescite' already defined, overwriting on input line 275.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'textcite' already defined, overwriting on input line 277.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defined, overwriting on input line 292.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already defined, overwriting on input line 292.
-Package biblatex Info: Delimiter 'finalnamedelim' in context 'bib' already defined, overwriting on input line 294.
-Package biblatex Info: Delimiter 'finalnamedelim' in context 'biblist' already defined, overwriting on input line 294.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'bib' already defined, overwriting on input line 295.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'biblist' already defined, overwriting on input line 295.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'cite' already defined, overwriting on input line 250.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'parencite' already defined, overwriting on input line 250.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'pagescite' already defined, overwriting on input line 250.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'textcite' already defined, overwriting on input line 252.
+Package biblatex Info: Delimiter 'andothersdelim' in context 'cite' already defined, overwriting on input line 254.
+Package biblatex Info: Delimiter 'andothersdelim' in context 'parencite' already defined, overwriting on input line 254.
+Package biblatex Info: Delimiter 'andothersdelim' in context 'pagescite' already defined, overwriting on input line 254.
+Package biblatex Info: Delimiter 'andothersdelim' in context 'textcite' already defined, overwriting on input line 255.
+Package biblatex Info: Delimiter 'nametitledelim' in context '' already defined, overwriting on input line 257.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'cite' already defined, overwriting on input line 276.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'parencite' already defined, overwriting on input line 276.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'pagescite' already defined, overwriting on input line 276.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'citep' already defined, overwriting on input line 276.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'textcite' already defined, overwriting on input line 278.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'authornumcite' already defined, overwriting on input line 278.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'citet' already defined, overwriting on input line 278.
+Package biblatex Info: Delimiter 'andothersdelim' in context 'cite' already defined, overwriting on input line 280.
+Package biblatex Info: Delimiter 'andothersdelim' in context 'parencite' already defined, overwriting on input line 280.
+Package biblatex Info: Delimiter 'andothersdelim' in context 'pagescite' already defined, overwriting on input line 280.
+Package biblatex Info: Delimiter 'andothersdelim' in context 'citep' already defined, overwriting on input line 280.
+Package biblatex Info: Delimiter 'andothersdelim' in context 'textcite' already defined, overwriting on input line 282.
+Package biblatex Info: Delimiter 'andothersdelim' in context 'authornumcite' already defined, overwriting on input line 282.
+Package biblatex Info: Delimiter 'andothersdelim' in context 'citet' already defined, overwriting on input line 282.
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting on input line 288.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defined, overwriting on input line 289.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already defined, overwriting on input line 289.
+Package biblatex Info: Delimiter 'bibpagespunct' in context '' already defined, overwriting on input line 290.
+Package biblatex Info: Delimiter 'multinamedelim' in context '' already defined, overwriting on input line 294.
+Package biblatex Info: Delimiter 'finalnamedelim' in context '' already defined, overwriting on input line 295.
+Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined, overwriting on input line 296.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defined, overwriting on input line 309.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already defined, overwriting on input line 309.
+Package biblatex Info: Delimiter 'finalnamedelim' in context 'bib' already defined, overwriting on input line 311.
+Package biblatex Info: Delimiter 'finalnamedelim' in context 'biblist' already defined, overwriting on input line 311.
+Package biblatex Info: Delimiter 'andothersdelim' in context 'bib' already defined, overwriting on input line 312.
+Package biblatex Info: Delimiter 'andothersdelim' in context 'biblist' already defined, overwriting on input line 312.
 ) (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/zhlipsum/zhlipsum.sty
 Package: zhlipsum 2020/04/10 v1.2.0 Chinese dummy text
  (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
@@ -1210,35 +1241,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ) [10] [11] [12] [13] [14]
 Missing character: There is no ─ (U+2500) in font TeX Gyre Termes/OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no ─ (U+2500) in font TeX Gyre Termes/OT:script=latn;language=dflt;mapping=tex-text;!
-[15]
-
-Package biblatex Warning: Type '立法院' not found on input line 391.
-
-
-LaTeX Warning: Empty bibliography on input line 391.
-
-[16] 
+[15] [16] 
 AED: lastpage setting LastPage
 [17] [18] (./R10A21126.aux)
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `R10A21126.out' has not changed.
 (rerunfilecheck)             Checksum: 94717652DFF05FE3EBC4F08EEB61601F;2723.
-
-Package biblatex Warning: Please rerun LaTeX.
-
 Package logreq Info: Writing requests to 'R10A21126.run.xml'.
 \openout1 = `R10A21126.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28301 strings out of 475848
- 633137 string characters out of 5801585
- 1583986 words of memory out of 5000000
- 48990 multiletter control sequences out of 15000+600000
+ 28359 strings out of 475848
+ 634674 string characters out of 5801585
+ 1587079 words of memory out of 5000000
+ 49050 multiletter control sequences out of 15000+600000
  475927 words of font info for 103 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 77i,12n,94p,832b,5204s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 77i,12n,94p,832b,5213s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on R10A21126.pdf (20 pages).

@@ -12,7 +12,7 @@
 %
 \def\versionofgbtstyle{2023/09/10 v1.1o}
 \def\versionofbiblatex{\abx@version}
-\ProvidesFile{gb7714-2015ay.bbx}[\versionofgbtstyle biblatex bibliography style]
+\ProvidesFile{gb7714-2015ay-ntulaw.bbx}[\versionofgbtstyle biblatex bibliography style]
 %\RequireBiber[3]%显式指定用biber后端，当用bibtex时会报错，但其实不会影响编译，只是采用bibtex后无法达成格式需求
 
 %=====================================================================
@@ -436,7 +436,8 @@
        }%
       {\usebibmacro{citesavefn}%
           \ifcsdef{labelsec\arabic{refsection}\arabic{page}et\thefield{entrykey}}%
-          {\csuse{labelsec\arabic{refsection}\arabic{page}et\thefield{entrykey}}\nopunct}%
+          % {\csuse{labelsec\arabic{refsection}\arabic{page}et\thefield{entrykey}}\nopunct}%
+          {\csuse{labelsec\arabic{refsection}\arabic{page}et\thefield{entrykey}}}%
           {\usedriver{\DeclareNameAlias{sortname}{default}}{\thefield{entrytype}}}%
       }%
       {\multicitedelim}%
@@ -495,9 +496,10 @@
     \def\str@numbercn{册}
     \def\str@serialcn{第}
     \def\str@sameentry{同}
-    \def\str@incn{见}
+    \def\str@incn{見}
+    % \def\str@seepagecn{頁}
     \def\str@mathesiscn{硕士学位论文}
-    \def\str@phdthesiscn{博士学位论文}
+    \def\str@phdthesiscn{博士學位論文}
     \def\str@editorcn{主编}
     \def\str@editorscn{主编}
     \def\str@compilerscn{整理}
@@ -932,6 +934,7 @@
        andjp={和},
        andkr={和},
        incn={\str@incn\addcolon\addspace},
+      %  seepagecn = {\str@seepagecn},
        mathesiscn={\str@mathesiscn},
        phdthesiscn={\str@phdthesiscn},
        editorscn={\str@editorcn},
@@ -1006,7 +1009,7 @@
 %     (a) location+institution+date 仅用于连续出版物
 %     (b)publisher+location+date 用于需要完整输出出版项的类型，比如book，collection，proceedings，in*，report
 %     (c)institution+location+date 用于出版项缺失时不输出的类型，包括manual，thesis，archive等其他类型
-%     (d)printlist{insitution} 用于电子资源，仅输出出版者或组织，为数据映射方便，本来默认的organization域转换为用insitution输出。
+%     (d)printlist{institution} 用于电子资源，仅输出出版者或组织，为数据映射方便，本来默认的organization域转换为用institution输出。
 %     (e) 不输出，主要用于连续出版物析出的文献
 % 10. 日期以如下方式处理：
 %     date 由于存在biblatex选项，因此通过选项控制，数据源为date解析数据或year
@@ -2187,7 +2190,12 @@ test {\iftoggle{iftlseven}}%biblatex<=3.7
 %   原理方法:set方法可以参考3.11.5 Entry Sets，4.11.1 Entry Sets
 %   这里调整一下两种语言参考文献的间隔，源来自biblatex.def
 \renewcommand*{\entrysetpunct}{\adddot\par\nobreak}%ay样式用par也可以，因为没有悬挂对齐问题
-\renewcommand*{\bibpagespunct}{\addcolon\addthinspace}%%页码引用格式的修改，修改为用冒号
+\renewcommand*{\bibpagespunct}{
+  % \addcomma
+  \printtext{，\printtext{頁}} 
+  % \addthinspace
+  }%%页码引用格式的修改，修改为用冒号
+% 改用逗號！2023/12/02
 %    2021.08.19，增加出版地和出版社之间的标点，hzz
 \newcommand{\publocpunct}{\addcolon\addspace}%出版项中：出版社地址后面的标点
 %\renewcommand{\relateddelim}{}%\par
@@ -2949,9 +2957,13 @@ test {\iftoggle{iftlseven}}%biblatex<=3.7
   %\usebibmacro{url}%%更换url的位置，放到下面
   \iffieldundef{urlyear}%
     {}{%\setunit*{\addspace}%
+    \setunit{\printtext{載於：}}
+    \usebibmacro{url}
+    \setunit{\addspace}
     \usebibmacro{urldate}}%
-     \setunit{\addperiod\addspace}%
-     \usebibmacro{url}}
+    %  \setunit{\addperiod}%
+    \setunit{\printtext{。}}%
+     }
 \renewbibmacro*{url}{\printfield{url}}
 
 %
@@ -3550,6 +3562,20 @@ incollection,proceedings,inproceedings]{number}{%
        \printfield[titlecase]{journalsubtitle}}}}}
 
 
+%%本地化字符串设置
+\def\str@qicn{期}
+% \def\str@juancn{卷}
+
+
+\NewBibliographyString{qicn}
+\NewBibliographyString{juancn}
+\DefineBibliographyStrings{english}{
+        and         = {，},%将第2和3人名间的and符号改成逗号，
+        andcn       = {，},%and本地化字符串的中文对应词
+        qicn ={\str@qicn},
+        juancn ={卷},
+        in={},
+}
 
 %
 %   调整期刊卷和期的格式
@@ -3569,6 +3595,23 @@ incollection,proceedings,inproceedings]{number}{%
   \setunit{\addcomma\space}%
   \printfield{eid}}}}
 
+  \renewbibmacro*{journal+issuetitle}{\bibpubfont%源来自standard.bbx
+  \usebibmacro{journal}%
+  \setunit*{，}%修改为增加一个逗号
+  \usebibmacro{issue+date}%
+  \usebibmacro{volume+number+eid}%把卷期放到年份后面
+  %\newunit
+  }%
+  
+  \renewbibmacro*{volume+number+eid}{%
+  \printfield{volume}%
+  \iffieldundef{volume}
+    {}
+    {\bibstring{juancn}}% 只有当有卷号时才显示 "第N卷"
+  \bibstring{serialcn}%
+  \printfield{number}%
+  \bibstring{qicn}%
+}
 %
 %   调整期刊年份的格式
 %
@@ -4233,6 +4276,108 @@ test{\iffieldundef{day}} and test{\iffieldundef{endday}} and test{\iffieldundef{
      \usebibmacro{related}}
     {}%
   \usebibmacro{finentry}\usebibmacro{annotation}}
+
+
+% https://github.com/hushidong/biblatex-gb7714-2015/issues/70
+
+%   \DefineBibliographyStrings{english}{
+% 	mathesis    =  {硕士学位论文},
+% 	phdthesis   =  {博士学位论文},
+% 	mathesiscn  =  {硕士学位论文},
+% 	phdthesiscn =  {博士学位论文},
+% }
+
+%修改标题输出的格式
+\DeclareFieldFormat%修改标题输出的格式
+  [thesis]%
+  {title}{#1}%\mkbibquote{#1\isdot}
+
+%修改论文类型输出的格式
+\DeclareFieldFormat%其中利用了\makebox来去除掉xecjk在中英文间引入的空格
+  [thesis]%
+  {type}{\makebox{}\mkbibbrackets{\iffieldequalstr{userd}{chinese}%
+    {\ifbibxstring{#1cn}{\bibxstring{#1cn}}{#1}}%
+    {\ifbibstring{#1}{\bibstring{#1}}{#1}}}}%\mkbibquote{#1\isdot}
+
+%
+%   重设thesistitle的输出
+%
+%   20180425，v1.0k，为标题增加字体控制命令，Hu Zhenzhen
+%   原理方法:将文献类型标识符输出出去，原输出来自biblatex.def文件
+%   利用toggle做标识符是否输出的判断
+\renewbibmacro*{thesistitle}{%
+  \ifboolexpr{%
+    test{\iffieldundef{title}}%
+    and
+    test{\iffieldundef{subtitle}}%
+  }%
+    {}%
+    {\printtext[title]{\bibtitlefont%增加字体控制命令
+       \printfield[titlecase]{title}%
+       \ifboolexpr{test {\iffieldundef{subtitle}}}%这里增加了对子标题的判断，解决不判断多一个点的问题
+       {}{\setunit{\subtitlepunct}%
+       \printfield[titlecase]{subtitle}}%
+       \iffieldundef{titleaddon}{}%判断一下titleaddon，否则直接加可能多一个空格
+        {\setunit{\subtitlepunct}\printfield{titleaddon}}%
+     %\iffieldundef{booktitle}{\newunit}{}%当title是析出时，不要标点
+     %\newunit
+}%
+}}
+
+  
+%
+%   论文类型驱动
+%   2016-11-11，增加了译者信息
+%   2020-04-12，修改标题和类型输出
+%
+\DeclareBibliographyDriver{thesis}{%
+\usebibmacro{bibindex}%
+\usebibmacro{begentry}%
+\usebibmacro{author}%
+\ifnameundef{author}{}{\setunit{\labelnamepunct}\newblock}%这一段用于去除作者不存在时多出的标点
+\usebibmacro{thesistitle}%
+%  \iftoggle{bbx:gbstrict}{}{%
+%  \newunit%
+%  \printlist{language}%
+%  \newunit\newblock
+%  \usebibmacro{byauthor}}%
+%  \newunit\newblock
+%  \usebibmacro{byeditor+others}%增加的译者信息
+%  \newunit\newblock
+\iftoggle{bbx:gbfieldtype}{%
+\printfield{type}%
+\setunit*{\addspace}}{}%
+\printfield{number}%
+\newunit\newblock
+\printfield{version}%
+\newunit
+\printfield{note}%
+\newunit\newblock
+\usebibmacro{institution+location+date}%
+%\newunit\newblock
+\usebibmacro{chapter+pages}%
+\iffieldundef{url}{}{%当没有网址时也不输出修改或更新日期
+\usebibmacro{modifydate}}%修改或更新日期为带括号的时间
+\usebibmacro{doi+eprint+url}%
+\newunit
+\printfield{pagetotal}%
+\newunit\newblock
+\iftoggle{bbx:isbn}
+  {\printfield{isrn}}
+  {}%
+\newunit\newblock
+%  \usebibmacro{doi+eprint+url}%
+%  \newunit\newblock
+\usebibmacro{addendum+pubstate}%
+\setunit{\bibpagerefpunct}\newblock
+\usebibmacro{pageref}%
+\newunit\newblock
+\iftoggle{bbx:related}
+  {\usebibmacro{related:init}%
+   \usebibmacro{related}}
+  {}%
+\usebibmacro{finentry}\usebibmacro{annotation}}
+
 
 %
 %   备选类型驱动
