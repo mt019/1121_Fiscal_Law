@@ -1,0 +1,155 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=latex 2022.8.25)  2 DEC 2023 15:03
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**makebst
+(d:/MaakApp/texlive/2022/texmf-dist/tex/latex/custom-bib/makebst.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-08-23>
+\outfile=\write3
+\ttyin=\read2
+\infile=\read3
+\ttyout=\write4
+\hours=\count185
+\minutes=\count186
+
+***********************************
+* This is Make Bibliography Style *
+***********************************
+It makes up a docstrip batch job to produce
+a customized .bst file for running with BibTeX
+Do you want a description of the usage? (NO)
+
+\yn=y
+In the interactive dialogue that follows,
+you will be presented with a series of menus.
+In each case, one answer is the default, marked as (*),
+and a mere carriage-return is sufficient to select it.
+(If there is no * choice, then the default is the last choice.)
+For the other choices, a letter is indicated
+in brackets for selecting that option. If you select
+a letter not in the list, default is taken.
+
+The final output is a file containing a batch job
+which may be (La)TeXed to produce the desired BibTeX
+bibliography style file. The batch job may be edited
+to make minor changes, rather than running this program
+once again.
+
+Enter the name of the MASTER file (default=merlin.mbs)
+
+\mfile=ntulaw
+*** Cannot find file `ntulaw.mbs'
+
+Enter the name of the MASTER file (default=merlin.mbs)
+
+\mfile=
+
+Name of the final OUTPUT .bst file? (default extension=bst)
+
+\ofile=ntulaw
+
+Give a comment line to include in the style file.
+Something like for which journals it is applicable.
+
+\ans=ntulaw
+\openout3 = `ntulaw.dbj'.
+
+Do you want verbose comments? (NO)
+
+\yn=y
+(d:/MaakApp/texlive/2022/texmf-dist/tex/latex/custom-bib/merlin.mbs
+<<< For more information about the meanings of
+<<< the various options, see the section on 
+<<< Menu Information in the .mbs file documentation.
+
+EXTERNAL FILES:
+
+Name of language definition file (default=merlin.mbs)
+
+\cfile=
+
+Name of language file: \cfile=.
+
+Include file(s) for extra journal names? (NO)
+
+\yn=
+
+No included files.
+
+<<INTERNAL LANGUAGE SUPPORT (if no external language file)
+(*) English words used explicitly
+(b) Babel (words replaced by commands defined in babelbst.tex)
+  Select:
+
+\ans=
+  You have selected: English
+
+>>INTERNAL LANGUAGE SUPPORT (if no external language file)
+
+<<STYLE OF CITATIONS:
+(*) Numerical as in standard LaTeX
+(a) Author-year with some non-standard interface
+(b) Alpha style, Jon90 or JWB90 for single or multiple authors
+(o) Alpha style, Jon90 even for multiple authors
+(f) Alpha style, Jones90 (full name of first author)
+(c) Cite key (special for listing contents of bib file)
+  Select:
+
+\ans=a
+  You have selected: Author-year
+
+>>STYLE OF CITATIONS:
+
+<<AUTHOR--YEAR SUPPORT SYSTEM (if author-year citations)
+(*) Natbib for use with natbib v5.3 or later
+(o) Older Natbib without full authors citations
+(l) Apalike for use with apalike.sty
+(h) Harvard system with harvard.sty
+(a) Astronomy system with astron.sty
+(c) Chicago system with chicago.sty
+(n) Named system with named.sty
+(d) Author-date system with authordate1-4.sty
+  Select:
+
+\ans=
+  You have selected: Natbib
+
+>>AUTHOR--YEAR SUPPORT SYSTEM (if author-year citations)
+
+<<LANGUAGE FIELD
+(*) No language field 
+(l) Add language field to switch hyphenation patterns temporarily
+  Select:
+
+\ans=l
+  You have selected: Add language field
+
+>>LANGUAGE FIELD
+
+<<ANNOTATIONS:
+(*) No annotations will be recognized
+(a) Annotations in annote field or in .tex file of citekey name
+  Select:
+
+\ans=a
+  You have selected: Annotations
+
+>>ANNOTATIONS:
+
+<<PRESENTATIONS:
+(*) Do not add presentation type for conference talks
+(p) Add presentation, speaker not highlighted 
+(b) Presentation, speaker bold face 
+(i) Presentaion, speaker italic 
+(c) Presentaion, speaker in small caps 
+  Select:
+
+\ans=p
+  You have selected: Add presentation, speaker not highlighted
+
+>>PRESENTATIONS:
+
+<<ORDERING OF REFERENCES (if author-year citations)
+(*) Alphabetical by all authors
+(l) By label (Jon

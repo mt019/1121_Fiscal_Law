@@ -1,0 +1,371 @@
+
+% \documentclass[UTF8,a4paper,14pt]{ctexart}
+\usepackage[a4paper, margin={1in,1.5in}]{geometry}
+\usepackage[fontsize=14pt]{fontsize}
+\renewcommand{\footnotesize}{\fontsize{8pt}{11pt}\selectfont}
+\usepackage{
+  url}
+
+
+\usepackage{xeCJK}
+\usepackage{zhnumber}
+
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{fontspec}
+\usepackage{newunicodechar}
+\usepackage{tocloft} % adding the tocloft package for toc customization
+\usepackage{enumitem}
+
+\setcounter{tocdepth}{2} % table of content
+
+\setcounter{secnumdepth}{5}
+
+% note: I'm using different fonts only because I don't have yours
+% \setCJKmainfont{Noto Serif CJK TC}
+% \setCJKsansfont{Noto Sans CJK TC}
+% \setCJKmonofont{Noto Mono CJK TC}
+
+
+%中英文設定
+%\usepackage{fontspec}
+\setmainfont{TeX Gyre Termes}
+\usepackage{xeCJK} %引用中文字的指令集
+%\setCJKmainfont{PMingLiU}
+\setCJKmainfont{DFKai-SB}
+\setCJKmainfont[AutoFakeBold=4,AutoFakeSlant=.4]{DFKai-SB}   %設定軟體粗體及斜體
+% \setmainfont{Times New Roman}
+\setCJKmonofont{DFKai-SB}
+
+
+\setlength{\parindent}{2em} %首行縮排兩個漢字距離
+\usepackage{indentfirst}
+% 預設第一段不首行縮排，如果想讓第一段首行縮排，則可以使用 \usepackage{indentfirst}。
+% 如果想讓某一段不首行縮排，則可以在該段前加上 \noindent。
+% 如果想讓整篇文章都首行不縮排，則：\setlength{\parindent}{0pt}
+
+
+
+
+% \newcommand{\subsubsubsection}[1]{\paragraph{#1}\mbox{}\\}
+
+% \newcommand\subsubsubsection{\@startsection{paragraph}{4}{\z@}{-2.5ex\@plus -1ex \@minus -.25ex}{1.25ex \@plus .25ex}{\normalfont\normalsize\bfseries}}
+
+\titleclass{\subsubsubsection}{straight}[\subsubsection]
+\newcounter{subsubsubsection}
+% [subsubsection]
+% \renewcommand\thesubsubsubsection{\thesubsubsection.\arabic{subsubsubsection}}
+\renewcommand\thesubsubsubsection{\arabic{subsubsubsection}.}
+
+\titleformat{\subsubsubsection}
+  {\normalfont\normalsize\bfseries}{\thesubsubsubsection}{1em}{}
+
+\titlespacing*{\subsubsubsection}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+
+\makeatletter
+% \def\l@subsubsubsection{\@dottedtocline{4}{7em}{4em}}
+\def\toclevel@subsubsubsection{4}
+\def\l@subsubsubsection{\@dottedtocline{4}{7em}{4em}}
+\makeatother
+% https://tex.stackexchange.com/questions/60209/how-to-add-an-extra-level-of-sections-with-headings-below-subsubsection
+
+%終於達到我想要的效果了QQQQQ
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+% in your example the titles in the toc are all sans serif, so I'll just add that here
+% feel free to leave that out in your original document,
+% it's just for visual comparability
+\renewcommand{\cftsecfont}{\bfseries\sffamily}
+\renewcommand{\cftsubsecfont}{\sffamily}
+\renewcommand{\cftsubsubsecfont}{\sffamily}
+% \renewcommand{\cftsubsubsubsecfont}{\sffamily}
+\renewcommand{\cftparafont}{\sffamily}
+\renewcommand{\cftsubparafont}{\sffamily}
+
+% zhnum[style={Traditional,Financial}] doesn't work with the section counter,
+% so we define our own counter and increase it every time in \thesection
+\newcounter{mysec}[section]
+\renewcommand\thesection{%
+    \addtocounter{mysec}{1}%
+    \zhnum[style={Traditional,Financial}]{mysec}、}
+\renewcommand\thesubsection{\zhnum{subsection}、} % added a 、
+\renewcommand\thesubsubsection{（\zhnum{subsubsection}）} % added parentheses
+% \renewcommand\thesubsubsubsection{\zhnum{subsubsection}.} % added parentheses
+% (full-width, don't know if that's what you want)
+\renewcommand\theparagraph{} % you don't want paragraph numbers
+\renewcommand\thesubparagraph{} % nor subparagraph numbers
+
+% we have to adjust the spacing in the toc because the section label is longer than usual
+\addtolength\cftsecnumwidth{1em}
+\addtolength\cftsubsecindent{1em}
+% \addtolength\cftsubsubsecindent{1em}
+
+% here we need to make sure the normal section counter is accessed
+\titleformat{\section}{\Large\bfseries\filcenter}
+    {\zhnum[style={Traditional,Financial}]{section}、}{.5em}{}
+% not really sure what you intend to achieve with \fontsize but I'll leave it here
+\titleformat*{\subsection}{\fontsize{15}{20}\bfseries\sffamily} 
+\titleformat*{\subsubsection}{\fontsize{14}{18}\bfseries\sffamily}
+% \titleformat*{\subsubsubsection}{\fontsize{14}{18}\bfseries\sffamily}
+
+% no extra version for numberless is necessary since no numbers are used anyways
+% also you get newlines from omitting the [display] in \titleformat already
+% \titleformat{\paragraph}
+%     {\fontsize{14}{16}\bfseries\sffamily}{}{0em}{} 
+% \titleformat{\subparagraph}
+%     {\fontsize{12}{14}\bfseries\sffamily}{}{0em}{}
+% we need the following so that they don't indent (second argument, 0em);
+% you'll have to adjust the spacing though since this is not display style anymore:
+% \titlespacing*{\paragraph}{0em}{3.25ex plus 1ex minus .2ex}{.75ex plus .1ex} 
+% \titlespacing*{\subparagraph}{0em}{3.25ex plus 1ex minus .2ex}{.75ex plus .1ex}
+
+% \renewcommand{\maketitlehooka}{\sffamily}
+
+\renewcommand{\baselinestretch}{1.2}
+\renewcommand{\abstractname}{摘要} 
+\renewcommand{\contentsname}{\hfill\bfseries 目錄 \hfill} 
+\renewcommand{\tablename}{表}
+\renewcommand{\arraystretch}{1}
+
+
+\usepackage{fancyhdr}%导入fancyhdr包
+
+\usepackage{lastpage}
+\pagestyle{fancy}
+\fancyhf{} 
+\cfoot{第 \thepage 頁,共\pageref*{LastPage} 頁}
+\usepackage[hang,flushmargin,bottom]{footmisc} %
+% \usepackage[]{footmisc}
+
+% \usepackage{hyperref}
+% \usepackage[utf8x]{inputenc} do not use inputenc with XeTeX
+% \usepackage{fixltx2e} not required any more
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+
+\usepackage{multirow}
+\usepackage{booktabs}
+
+\usepackage{url}
+\let\oldquote\quote
+\let\endoldquote\endquote
+\renewenvironment{quote}[2][]
+  {\if\relax\detokenize{#1}\relax
+     \def\quoteauthor{#2}%
+   \else
+     \def\quoteauthor{#2~---~#1}%
+   \fi
+   \oldquote}
+  {\par\nobreak\smallskip\hfill（\quoteauthor）%
+   \endoldquote\addvspace{\bigskipamount}}
+
+   \usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=[rgb]{0,0.37,0.53},
+  citecolor=[rgb]{0,0.47,0.68},
+  filecolor=[rgb]{0,0.37,0.53},
+  urlcolor=[rgb]{0,0.37,0.53},
+  % pagebackref=true, % this is ignored
+  linktoc=all}
+
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{tabularray}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+
+\usepackage{afterpage}
+% \usepackage{ctex}
+% \author{王逸帆}
+% \date{\today}
+
+
+
+% \usepackage{biblatex} 
+% \bibliography{R10A21126.bib}       % 指定 BibTeX 数据库文件
+
+
+% \defbibfilter{journalarticles}{
+%     type=article
+% }
+
+% \defbibfilter{websites}{
+%     type=misc
+% }
+
+
+
+% \usepackage[style=numeric, backend=biber]{biblatex}
+% \bibliography{R10A21126.bib}
+
+% \DeclareBibliographyCategory{article}
+% \DeclareBibliographyCategory{web}
+% \DeclareBibliographyCategory{book}
+
+% \defbibheading{article}{\section*{期刊文章}}
+% \defbibheading{web}{\section*{网页}}
+% \defbibheading{book}{\section*{书籍}}
+
+% \newcommand*{\addtobibliography}[2]{\addtocategory{#1}{#2}}
+
+
+% \usepackage[style=authoryear, sorting=nyt, backend=biber]{biblatex}
+
+% \usepackage[style=authoryear, backend=biber]{biblatex}
+
+% \usepackage[style=gb7714-2015, mergedate=true, backend=biber, defernumbers=true]{biblatex}
+
+% \usepackage[style=gb7714-2015ay,  gbalign=right, gbtype = false, mergedate=true, url = false, backend=biber,defernumbers=true]{biblatex}
+
+% \addbibresource{R10A21126.bib}
+
+% \usepackage[style=authoryear, sorting=nyt, backend=biber, url=false]{biblatex}
+
+% % %第一段代码：导言区重设标注标签的标点
+% % %多个引用间的标点
+% % \renewcommand*{\multicitedelim}{；}%\addsemicolon\addspace；
+% % \renewcommand*{\compcitedelim}{，}%\addcomma\space
+% % \renewcommand{\compextradelim}{，}
+% % %姓名与年份之间的标点(间隔符)
+% % \DeclareDelimFormat[cite,parencite,pagescite]{nameyeardelim}{，}
+% % \DeclareDelimFormat[textcite]{nameyeardelim}{，}%
+% % %最后一个姓名与等之间的符号(间隔符)
+% % \DeclareDelimFormat[cite,parencite,pagescite]{andothersdelim}{，}%
+% % \DeclareDelimFormat[textcite]{andothersdelim}{，}%
+% % %除此之外，有时还需要设置finalnamedelim等来调整姓名间的标点。
+% % % multinamedelim是各姓名之间的标点
+% % % finalnamedelim是最后一个姓名前的取代multinamedelim的标点
+
+% % 标点类型的控制（注意：全局字体能控制标点的字体）
+% % 标题与文献类型表示符之间的间隔符 title<titletypedelim>[J]
+% \DeclareDelimFormat[bib,biblist]{titletypedelim}{\space}
+% %文献表各条文献中各单元间隔标点设置（与异步标点机制相关的）
+% \renewcommand*{\newunitpunct}{，}%\addcomma\space %，
+% \renewcommand*{\finentrypunct}{\iffieldequalstr{userd}{chinese}{。}{\adddot}}
+% %姓名格式相关的标点
+% \DeclareDelimFormat[bib,biblist]{nameyeardelim}{，}%\addcomma\addspace
+% \DeclareDelimFormat[bib,biblist]{multinamedelim}{，}%[bib,biblist]
+% \DeclareDelimFormat[bib,biblist]{finalnamedelim}{，}
+% \DeclareDelimFormat[bib,biblist]{andothersdelim}{，}
+% %姓名内部的相关标点，包括如下等设置
+% %注意这类设置与gbnamefmt选项相关，不同的选项值对应不同的gb...localset
+% %除了如下命令外还有其它设置，有需要可以查biblatex文档
+% \def\gbcaselocalset{%
+% \renewcommand*{\revsdnamepunct}{，}%%
+% \renewrobustcmd*{\bibinitperiod}{}%将名字简写后的点去掉
+% \renewrobustcmd*{\bibinithyphendelim}{}%.\mbox{-}
+% \renewrobustcmd*{\bibnamedelima}{} %%\mbox{-}
+% }
+
+
+\usepackage[backend=biber,style=gb7714-2015ms,gbstyle=false,gbnamefmt=familyahead, gbtype = false,
+% mergedate=true,
+url = false, defernumbers=true]{biblatex}
+
+% \usepackage[style=gb7714-2015ay,  gbalign=right, gbtype = false, mergedate=true, url = false, backend=biber, defernumbers=true]{biblatex}
+
+
+\addbibresource{R10A21126.bib}
+
+
+\makeatletter
+%%全局标点设置
+\DeclareDelimFormat{nameyeardelim}{，}%\addcomma\addspace
+\DeclareDelimFormat[bib,biblist]{nameyeardelim}{，}%\addcomma\addspace
+\DeclareDelimFormat{bibpagespunct}{\iffieldequalstr{userd}{chinese}{，}{，}}%\addcomma\addspace
+\renewcommand*{\newunitpunct}{，}%\addcomma\space %，
+\renewcommand*{\finentrypunct}{\iffieldequalstr{userd}{chinese}{。}{\adddot}}
+\DeclareDelimFormat{multinamedelim}{，}%[bib,biblist]
+% \DeclareDelimFormat{finalnamedelim}{，}
+\DeclareDelimFormat{andothersdelim}{，}
+
+%%本地化字符串设置
+\def\str@qicn{期}
+\NewBibliographyString{qicn}
+\DefineBibliographyStrings{english}{
+        and         = {，},%将第2和3人名间的and符号改成逗号，
+        andcn       = {，},%and本地化字符串的中文对应词
+        qicn ={\str@qicn},
+        in={},
+}
+
+
+%%中文文献的相关设置
+\AtEveryBibitem{
+\ifboolexpr{%
+togl{bbx:gbstyle} or test {\iffieldequalstr{userd}{chinese}}%
+}%
+{%
+
+\DeclareFieldFormat[article]{title}{\iffieldequalstr{userd}{chinese}{〈#1〉}{\mkbibquote{#1}\isdot}}
+\DeclareFieldFormat[book]{title}{\iffieldequalstr{userd}{chinese}{《#1》}{\mkbibquote{#1}\isdot}}
+\DeclareFieldFormat[online]{title}{#1}
+
+
+%
+%   调整期刊名的格式
+%
+%   v1.0k,20180425,增加了字体控制命令，hzz
+\renewbibmacro*{journal+issuetitle}{\bibpubfont%源来自standard.bbx
+  \usebibmacro{journal}%
+  \setunit*{，}%修改为增加一个逗号
+  \usebibmacro{issue+date}%
+  \usebibmacro{volume+number+eid}%把卷期放到年份后面
+  %\newunit
+  }%
+%
+%   调整期刊卷和期的格式
+%
+\renewbibmacro*{volume+number+eid}{%源来自standard.bbx
+\bibstring{serialcn}%
+  \printfield{number}%
+  \bibstring{qicn}%
+}%
+\DeclareDelimFormat[bib,biblist]{multinamedelim}{，}
+\DeclareDelimFormat[bib,biblist]{finalnamedelim}{，}
+\DeclareDelimFormat[bib,biblist]{andothersdelim}{，}
+}{}
+}%
+
+
+
+
+
+% \newbibmacro*{footfullcite}{%
+%   \usedriver
+%     {\DeclareNameAlias{sortname}{default}}
+%     {\thefield{entrytype}}%
+%   \setunit*{\printdelim{nametitledelim}}\newblock
+%   \usebibmacro{title}%
+%   \newunit
+%   \usebibmacro{author/translator+others}%
+%   \newunit
+%   \usebibmacro{location+date}%
+%   \newunit
+%   \printtext[parens]{%
+%     \usebibmacro{cite}%
+%   }%
+% }
+
+% \DeclareCiteCommand{\footfullcite}
+%   [\mkbibfootnote]
+%   {\usebibmacro{prenote}}
+%   {\usebibmacro{citeindex}%
+%    \renewbibmacro*{title}{%
+%      \printtext[brackets]{\iffieldequalstr{userd}{chinese}{〈\printfield{title}〉}{\mkbibquote{\printfield{title}\isdot}}}}}
+%   {\multicitedelim}
+%   {\usebibmacro{postnote}}
+
