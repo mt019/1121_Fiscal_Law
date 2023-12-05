@@ -1,14 +1,14 @@
-[2] Config.pm:306> INFO - This is Biber 2.18
-[3] Config.pm:309> INFO - Logfile is 'R10A21126.blg'
-[394] biber-MSWIN32:340> INFO - === 
-[598] Biber.pm:418> INFO - Reading 'R10A21126.bcf'
-[1518] Biber.pm:975> INFO - Using all citekeys in bib section 0
-[1629] Biber.pm:4401> INFO - Processing section 0
-[1657] Biber.pm:4592> INFO - Looking for bibtex file 'R10A21126.bib' for section 0
-[1769] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1961] bibtex.pm:1518> INFO - Found BibTeX data source 'R10A21126.bib'
-[2989] UCollate.pm:68> INFO - Overriding locale 'zh__stroke' defaults 'variable = shifted' with 'variable = non-ignorable'
-[3011] UCollate.pm:68> INFO - Overriding locale 'zh__stroke' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[3012] Biber.pm:4221> INFO - Sorting list 'gb7714-2015/global//global/global' of type 'entry' with template 'gb7714-2015' and locale 'zh__stroke'
-[3101] bbl.pm:654> INFO - Writing 'R10A21126.bbl' with encoding 'UTF-8'
-[3180] bbl.pm:757> INFO - Output to R10A21126.bbl
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'R10A21126.blg'
+[135] biber-MSWIN32:340> INFO - === 
+[181] Biber.pm:418> INFO - Reading 'R10A21126.bcf'
+[398] Biber.pm:975> INFO - Using all citekeys in bib section 0
+[459] Biber.pm:4401> INFO - Processing section 0
+[474] Biber.pm:4592> INFO - Looking for bibtex file 'R10A21126.bib' for section 0
+[536] bibtex.pm:1713> INFO - LaTeX decoding ...
+[609] bibtex.pm:1518> INFO - Found BibTeX data source 'R10A21126.bib'
+[1017] UCollate.pm:68> INFO - Overriding locale 'zh__stroke' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1017] UCollate.pm:68> INFO - Overriding locale 'zh__stroke' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1017] Biber.pm:4221> INFO - Sorting list 'gb7714-2015/global//global/global' of type 'entry' with template 'gb7714-2015' and locale 'zh__stroke'
+[1057] bbl.pm:654> INFO - Writing 'R10A21126.bbl' with encoding 'UTF-8'
+[1082] bbl.pm:757> INFO - Output to R10A21126.bbl

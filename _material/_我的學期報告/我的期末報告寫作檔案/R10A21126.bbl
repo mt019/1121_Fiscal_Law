@@ -966,6 +966,7 @@
       \field{userf}{chinese}
       \field{year}{2021}
       \field{dateera}{ce}
+      \true{nocite}
       \field{pages}{237\bibrangedash 266}
       \range{pages}{30}
       \keyw{ZhangYongMing2021}
@@ -1007,7 +1008,7 @@
       \field{lansortorder}{1}
       \field{month}{3}
       \field{number}{2}
-      \field{title}{特種基金制度研究與改革初探（張永明）}
+      \field{title}{特種基金制度研究與改革初探}
       \field{urlday}{12}
       \field{urlmonth}{10}
       \field{urlyear}{2023}
@@ -1018,7 +1019,6 @@
       \field{year}{2021}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{1\bibrangedash 21}
       \range{pages}{21}
       \verb{urlraw}
@@ -1137,7 +1137,6 @@
       \field{year}{2019}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{331\bibrangedash 345}
       \range{pages}{15}
       \verb{urlraw}
@@ -1196,6 +1195,7 @@
       \field{year}{2019}
       \field{dateera}{ce}
       \field{urldateera}{ce}
+      \true{nocite}
       \field{pages}{361\bibrangedash 374}
       \range{pages}{14}
       \verb{urlraw}
@@ -1491,7 +1491,7 @@
       \field{month}{2}
       \field{number}{16}
       \field{shorttitle}{財政法}
-      \field{title}{財政法:第四講—特種基金}
+      \field{title}{財政法：第四講—特種基金}
       \field{urlday}{12}
       \field{urlmonth}{10}
       \field{urlyear}{2023}

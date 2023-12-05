@@ -202,7 +202,8 @@
 gbfootbibfmt = true,
 sortlocale=zh__stroke,
 citestyle=gb7714-2015ay-ntulaw,
- gbalign=right, gbtype = false, mergedate=true, url = false, backend=biber, defernumbers = true]{biblatex}
+ gbalign=gb7714-2015ay-ntulaw,
+ gbtype = false, mergedate=true, url = false, backend=biber, defernumbers = true]{biblatex}
 
 % \usepackage[style=gb7714-2015ay, sortlocale=zh__stroke,citestyle=gb7714-2015ay, gbalign=right, gbtype = false, mergedate=true, url = false, backend=biber, defernumbers = true]{biblatex}
 \addbibresource{R10A21126.bib}
@@ -391,6 +392,6 @@ citestyle=gb7714-2015ay-ntulaw,
   % \usebibmacro{date}%
   \newunit}
 
-\DeclareFieldFormat{pages}{#1}%去掉前面引导页码的pp.等字符，\mkpageprefix[bookpagination]{#1}
+  % \DeclareFieldFormat{pages}{#1}%页码引用格式的修改%去掉前面引导页码的pp.等字符
 
   \usepackage{zhlipsum}

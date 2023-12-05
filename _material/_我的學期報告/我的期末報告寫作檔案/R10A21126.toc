@@ -1,8 +1,7 @@
 \contentsline {section}{\numberline {\global \advance \c@mysec 1\relax \zhnumwithoptions {style={Traditional,Financial}}{mysec}、}前言}{1}{section.1}%
 \contentsline {section}{\numberline {\global \advance \c@mysec 1\relax \zhnumwithoptions {style={Traditional,Financial}}{mysec}、}空氣污染防制費與空污基金之定性}{4}{section.2}%
 \contentsline {subsection}{\numberline {一、}空氣污染防制費之性質}{4}{subsection.2.1}%
-\contentsline {subsection}{\numberline {二、}空污基金作爲非營業特種基金}{5}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {（一）}空污基金之合法性管控}{5}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {（一）}空污基金之合法性管控}{5}{subsubsection.2.1.1}%
 \contentsline {section}{\numberline {\global \advance \c@mysec 1\relax \zhnumwithoptions {style={Traditional,Financial}}{mysec}、}空氣污染防制基金之財源}{7}{section.3}%
 \contentsline {subsection}{\numberline {一、}空氣污染防制費}{7}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {（一）}法律保留原則}{7}{subsubsection.3.1.1}%

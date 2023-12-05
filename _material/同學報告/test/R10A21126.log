@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.25)  2 DEC 2023 21:05
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.25)  4 DEC 2023 01:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -8,8 +8,8 @@ entering extended mode
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-08-23> (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(d:/MaakApp/texlive/2022/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(d:/MaakApp/texlive/2022/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count181
 \c@section=\count182
@@ -706,390 +706,71 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks35
 \AP@partial=\box97
 \AP@footins=\box98
-) (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2022/07/12 v3.18b programmable bibliographies (PK/MW)
- (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count357
-) (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/logreq/logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count358
- (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/logreq/logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-\c@tabx@nest=\count359
-\c@listtotal=\count360
-\c@listcount=\count361
-\c@liststart=\count362
-\c@liststop=\count363
-\c@citecount=\count364
-\c@citetotal=\count365
-\c@multicitecount=\count366
-\c@multicitetotal=\count367
-\c@instcount=\count368
-\c@maxnames=\count369
-\c@minnames=\count370
-\c@maxitems=\count371
-\c@minitems=\count372
-\c@citecounter=\count373
-\c@maxcitecounter=\count374
-\c@savedcitecounter=\count375
-\c@uniquelist=\count376
-\c@uniquename=\count377
-\c@refsection=\count378
-\c@refsegment=\count379
-\c@maxextratitle=\count380
-\c@maxextratitleyear=\count381
-\c@maxextraname=\count382
-\c@maxextradate=\count383
-\c@maxextraalpha=\count384
-\c@abbrvpenalty=\count385
-\c@highnamepenalty=\count386
-\c@lownamepenalty=\count387
-\c@maxparens=\count388
-\c@parenlevel=\count389
-\blx@tempcnta=\count390
-\blx@tempcntb=\count391
-\blx@tempcntc=\count392
-\c@blx@maxsection=\count393
-\blx@maxsegment@0=\count394
-\blx@notetype=\count395
-\blx@parenlevel@text=\count396
-\blx@parenlevel@foot=\count397
-\blx@sectionciteorder@0=\count398
-\blx@sectionciteorderinternal@0=\count399
-\blx@entrysetcounter=\count400
-\blx@biblioinstance=\count401
-\labelnumberwidth=\skip118
-\labelalphawidth=\skip119
-\biblabelsep=\skip120
-\bibitemsep=\skip121
-\bibnamesep=\skip122
-\bibinitsep=\skip123
-\bibparsep=\skip124
-\bibhang=\skip125
-\blx@bcfin=\read2
-\blx@bcfout=\write3
-\blx@langwohyphens=\language87
-\c@mincomprange=\count402
-\c@maxcomprange=\count403
-\c@mincompwidth=\count404
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
- (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2022/07/12 v3.18b biblatex localization (PK/MW)
+)) (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+TeXGyreTermes(0) on input line 112.
+LaTeX Font Info:    No file T1TeXGyreTermes(0).fd. on input line 112.
+
+
+LaTeX Font Warning: Font shape `T1/TeXGyreTermes(0)/m/n' undefined
+(Font)              using `T1/cmr/m/n' instead on input line 112.
+
+) (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks36
+\inpenc@posthook=\toks37
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/07/20 3.78 The Babel package
+\babel@savecnt=\count357
+\U@D=\dimen321
+\l@unhyphenated=\language87
+ (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/babel/xebabel.def (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/babel/txtbabel.def))
+\bbl@readstream=\read2
+\bbl@dirlevel=\count358
+ (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/babel-german/german.ldf
+Language: german 2021/02/27 v2.13 German support for babel (pre-1996 orthography)
+ (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/babel-german/germanb.ldf
+Language: germanb 2021/02/27 v2.13 German support for babel (pre-1996 orthography)
+Package babel Info: Making " an active character on input line 139.
+))) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/babel/locale/de/babel-german.tex
+Package babel Info: Importing font and identification data for german
+(babel)             from babel-de-1901.ini. Reported on input line 25.
 )
-Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'gb7714-2015ay-ntulaw.dbx' not found.
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count405
-\c@savedafterword=\count406
-\c@annotator=\count407
-\c@savedannotator=\count408
-\c@author=\count409
-\c@savedauthor=\count410
-\c@bookauthor=\count411
-\c@savedbookauthor=\count412
-\c@commentator=\count413
-\c@savedcommentator=\count414
-\c@editor=\count415
-\c@savededitor=\count416
-\c@editora=\count417
-\c@savededitora=\count418
-\c@editorb=\count419
-\c@savededitorb=\count420
-\c@editorc=\count421
-\c@savededitorc=\count422
-\c@foreword=\count423
-\c@savedforeword=\count424
-\c@holder=\count425
-\c@savedholder=\count426
-\c@introduction=\count427
-\c@savedintroduction=\count428
-\c@namea=\count429
-\c@savednamea=\count430
-\c@nameb=\count431
-\c@savednameb=\count432
-\c@namec=\count433
-\c@savednamec=\count434
-\c@translator=\count435
-\c@savedtranslator=\count436
-\c@shortauthor=\count437
-\c@savedshortauthor=\count438
-\c@shorteditor=\count439
-\c@savedshorteditor=\count440
-\c@labelname=\count441
-\c@savedlabelname=\count442
-\c@institution=\count443
-\c@savedinstitution=\count444
-\c@lista=\count445
-\c@savedlista=\count446
-\c@listb=\count447
-\c@savedlistb=\count448
-\c@listc=\count449
-\c@savedlistc=\count450
-\c@listd=\count451
-\c@savedlistd=\count452
-\c@liste=\count453
-\c@savedliste=\count454
-\c@listf=\count455
-\c@savedlistf=\count456
-\c@location=\count457
-\c@savedlocation=\count458
-\c@organization=\count459
-\c@savedorganization=\count460
-\c@origlocation=\count461
-\c@savedoriglocation=\count462
-\c@origpublisher=\count463
-\c@savedorigpublisher=\count464
-\c@publisher=\count465
-\c@savedpublisher=\count466
-\c@language=\count467
-\c@savedlanguage=\count468
-\c@origlanguage=\count469
-\c@savedoriglanguage=\count470
-\c@pageref=\count471
-\c@savedpageref=\count472
-\shorthandwidth=\skip126
-\shortjournalwidth=\skip127
-\shortserieswidth=\skip128
-\shorttitlewidth=\skip129
-\shortauthorwidth=\skip130
-\shorteditorwidth=\skip131
-\locallabelnumberwidth=\skip132
-\locallabelalphawidth=\skip133
-\localshorthandwidth=\skip134
-\localshortjournalwidth=\skip135
-\localshortserieswidth=\skip136
-\localshorttitlewidth=\skip137
-\localshortauthorwidth=\skip138
-\localshorteditorwidth=\skip139
-Package biblatex Info: Trying to load enhanced support for Unicode engines...
-Package biblatex Info: ... file 'blx-unicode.def' found.
- (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/biblatex/blx-unicode.def)
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
- (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
- (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
-\c@textcitecount=\count473
-\c@textcitetotal=\count474
-\c@textcitemaxnames=\count475
-\c@biburlbigbreakpenalty=\count476
-\c@biburlbreakpenalty=\count477
-\c@biburlnumpenalty=\count478
-\c@biburlucpenalty=\count479
-\c@biburllcpenalty=\count480
-\biburlbigskip=\muskip19
-\biburlnumskip=\muskip20
-\biburlucskip=\muskip21
-\biburllcskip=\muskip22
-\c@smartand=\count481
-)
-Package biblatex Info: Trying to load bibliography style 'gb7714-2015ay-ntulaw'...
-Package biblatex Info: ... file 'gb7714-2015ay-ntulaw.bbx' found.
- (./gb7714-2015ay-ntulaw.bbx
-File: gb7714-2015ay-ntulaw.bbx 2023/09/10 v1.1obiblatex bibliography style
-Package biblatex Info: Trying to load bibliography style 'authoryear'...
-Package biblatex Info: ... file 'authoryear.bbx' found.
- (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
-File: authoryear.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
- (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count482
-\c@bbx:relatedtotal=\count483
-)) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/xstring/xstring.sty (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/xstring/xstring.tex
-\integerpart=\count484
-\decimalpart=\count485
-)
-Package: xstring 2021/07/21 v1.84 String manipulations (CT)
-)
-\BracketLift=\skip140
-\footbibmargin=\skip141
-\footbiblabelsep=\skip142
-\c@gbnamefmtcase=\count486
-\c@gbalignlabel=\count487
-\c@gbcitelocalcase=\count488
-\c@gbbiblocalcase=\count489
-\c@lanordernum=\count490
-\bibitemindent=\skip143
-\c@refnumeric=\count491
-\biblabelbox=\skip144
-\biblabelextend=\skip145
-Package biblatex Info: Delimiter 'finalnamedelim' in context '' already defined, overwriting.
-Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defined, overwriting.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already defined, overwriting.
 
+LaTeX Warning: Unused global option(s):
+    [14pt].
 
-Package biblatex Warning: Macro 'thesistitle' undefined.
-(biblatex)                Using \newbibmacro.
-
-)
-Package biblatex Info: Trying to load citation style 'gb7714-2015ay-ntulaw'...
-Package biblatex Info: ... file 'gb7714-2015ay-ntulaw.cbx' found.
- (./gb7714-2015ay-ntulaw.cbx
-File: gb7714-2015-ntulaw.cbx a biblatex citation style for GB/T 7714-2015
-Package biblatex Info: Trying to load citation style 'authoryear-comp'...
-Package biblatex Info: ... file 'authoryear-comp.cbx' found.
- (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/biblatex/cbx/authoryear-comp.cbx
-File: authoryear-comp.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\footcites'.
-Package biblatex Info: Redefining '\footcitetexts'.
-Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'textcite' already defined, overwriting.
-
-
-Package biblatex Warning: Macro 'textcite' already defined.
-(biblatex)                Using \renewbibmacro.
-
-
-Package biblatex Warning: Macro 'textcite:postnote' already defined.
-(biblatex)                Using \renewbibmacro.
-
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\cbx@textcite'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
- (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.cfg
-File: biblatex.cfg 
-)
-Package biblatex Info: Redefining '\footfullcite'.
-Package biblatex Info: XeTeX detected.
-(biblatex)             Assuming input encoding 'utf8'.
-Package biblatex Info: Document encoding is UTF8 ....
-Package biblatex Info: ... and expl3
-(biblatex)             2022-08-23 L3 programming layer (loader) 
-(biblatex)             is new enough (at least 2020/04/06),
-(biblatex)             setting 'casechanger=expl3'.
- (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
-Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
-))
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'cite' already defined, overwriting on input line 251.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'parencite' already defined, overwriting on input line 251.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'pagescite' already defined, overwriting on input line 251.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'textcite' already defined, overwriting on input line 253.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'cite' already defined, overwriting on input line 255.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'parencite' already defined, overwriting on input line 255.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'pagescite' already defined, overwriting on input line 255.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'textcite' already defined, overwriting on input line 256.
-Package biblatex Info: Delimiter 'nametitledelim' in context '' already defined, overwriting on input line 258.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'cite' already defined, overwriting on input line 277.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'parencite' already defined, overwriting on input line 277.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'pagescite' already defined, overwriting on input line 277.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'citep' already defined, overwriting on input line 277.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'textcite' already defined, overwriting on input line 279.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'authornumcite' already defined, overwriting on input line 279.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'citet' already defined, overwriting on input line 279.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'cite' already defined, overwriting on input line 281.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'parencite' already defined, overwriting on input line 281.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'pagescite' already defined, overwriting on input line 281.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'citep' already defined, overwriting on input line 281.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'textcite' already defined, overwriting on input line 283.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'authornumcite' already defined, overwriting on input line 283.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'citet' already defined, overwriting on input line 283.
-Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting on input line 289.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defined, overwriting on input line 290.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already defined, overwriting on input line 290.
-Package biblatex Info: Delimiter 'bibpagespunct' in context '' already defined, overwriting on input line 291.
-Package biblatex Info: Delimiter 'multinamedelim' in context '' already defined, overwriting on input line 295.
-Package biblatex Info: Delimiter 'finalnamedelim' in context '' already defined, overwriting on input line 296.
-Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined, overwriting on input line 297.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defined, overwriting on input line 310.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already defined, overwriting on input line 310.
-Package biblatex Info: Delimiter 'finalnamedelim' in context 'bib' already defined, overwriting on input line 312.
-Package biblatex Info: Delimiter 'finalnamedelim' in context 'biblist' already defined, overwriting on input line 312.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'bib' already defined, overwriting on input line 313.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'biblist' already defined, overwriting on input line 313.
-) (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/zhlipsum/zhlipsum.sty
-Package: zhlipsum 2020/04/10 v1.2.0 Chinese dummy text
- (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
-)
-\l__zhlipsum_begin_int=\count492
-\l__zhlipsum_end_int=\count493
-\l__zhlipsum_max_int=\count494
- (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/zhlipsum/zhlipsum-utf8.def
-File: zhlipsum-utf8.def 2020/04/10 v1.2.0 Chinese dummy text with UTF-8 encoding (for zhlipsum)
-\g__zhlipsum_simp_int=\count495
-
-Package zhlipsum Info: Chinese dummy text "simp" is created. It has 50
-(zhlipsum)             paragraphs.
-
-\g__zhlipsum_trad_int=\count496
-
-Package zhlipsum Info: Chinese dummy text "trad" is created. It has 50
-(zhlipsum)             paragraphs.
-
-\g__zhlipsum_nanshanjing_int=\count497
-
-Package zhlipsum Info: Chinese dummy text "nanshanjing" is created. It has 43
-(zhlipsum)             paragraphs.
-
-\g__zhlipsum_xiangyu_int=\count498
-
-Package zhlipsum Info: Chinese dummy text "xiangyu" is created. It has 45
-(zhlipsum)             paragraphs.
-
-\g__zhlipsum_zhufu_int=\count499
-
-Package zhlipsum Info: Chinese dummy text "zhufu" is created. It has 110
-(zhlipsum)             paragraphs.
-
-\g__zhlipsum_aspirin_int=\count500
-
-Package zhlipsum Info: Chinese dummy text "aspirin" is created. It has 66
-(zhlipsum)             paragraphs.
-
-))
-\@quotelevel=\count501
-\@quotereset=\count502
- (./R10A21126.aux)
+(./R10A21126.aux)
 \openout1 = `R10A21126.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 26.
  (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1110,12 +791,12 @@ LaTeX Font Info:    ... okay on input line 19.
 * \topmargin=-0.86499pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=35.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.79997pt plus 4.79947pt minus 2.4005pt
+* \skip\footins=12.59996pt plus 5.59938pt minus 2.80058pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1131,59 +812,59 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 19.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 19.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 19.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 19.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 19.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 19.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 19.
-LaTeX Font Info:    Redeclaring math accent \check on input line 19.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 19.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 19.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 19.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 19.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 26.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 26.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 26.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 26.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 26.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 26.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 26.
+LaTeX Font Info:    Redeclaring math accent \check on input line 26.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 26.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 26.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 26.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 26.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 19.
+(Font)              `operators' in the math version `normal' on input line 26.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/TeXGyreTermes(0)/m/n on input line 19.
+(Font)                  OT1/cmr/m/n --> TU/TeXGyreTermes(0)/m/n on input line 26.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 19.
+(Font)              `operators' in the math version `bold' on input line 26.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/TeXGyreTermes(0)/m/n on input line 19.
+(Font)                  OT1/cmr/bx/n --> TU/TeXGyreTermes(0)/m/n on input line 26.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/TeXGyreTermes(0)/m/n --> TU/TeXGyreTermes(0)/m/n on input line 19.
+(Font)                  TU/TeXGyreTermes(0)/m/n --> TU/TeXGyreTermes(0)/m/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/TeXGyreTermes(0)/m/it on input line 19.
+(Font)                  OT1/cmr/m/it --> TU/TeXGyreTermes(0)/m/it on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/TeXGyreTermes(0)/b/n on input line 19.
+(Font)                  OT1/cmr/bx/n --> TU/TeXGyreTermes(0)/b/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 19.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 19.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 26.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/TeXGyreTermes(0)/m/n --> TU/TeXGyreTermes(0)/b/n on input line 19.
+(Font)                  TU/TeXGyreTermes(0)/m/n --> TU/TeXGyreTermes(0)/b/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/TeXGyreTermes(0)/b/it on input line 19.
+(Font)                  OT1/cmr/bx/it --> TU/TeXGyreTermes(0)/b/it on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 19.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 19.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 26.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 19.
+(lastpage)             ! on input line 26.
 (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
  (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -1191,72 +872,71 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: xetex.def on input line 149.
  (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 19.
+Package hyperref Info: Link coloring ON on input line 26.
  (./R10A21126.out) (./R10A21126.out)
-\@outlinefile=\write4
-\openout4 = `R10A21126.out'.
+\@outlinefile=\write3
+\openout3 = `R10A21126.out'.
 
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
- (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
-)
-Package biblatex Info: XeTeX detected.
-(biblatex)             Assuming input encoding 'utf8'.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `R10A21126.bcf'.
 
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'R10A21126.bbl' found.
- (./R10A21126.bbl)
-Package biblatex Info: Reference section=0 on input line 19.
-Package biblatex Info: Reference segment=0 on input line 19.
-LaTeX Font Info:    Calculating math sizes for size <14.39996> on input line 22.
- [1
 
-] (./R10A21126.toc
+LaTeX Font Warning: Font shape `T1/TeXGyreTermes(0)/m/it' undefined
+(Font)              using `T1/TeXGyreTermes(0)/m/n' instead on input line 28.
 
-Package xeCJK Warning: Unknown CJK family `\CJKsfdefault' is being ignored.
-(xeCJK)                
-(xeCJK)                Try to use `\setCJKsansfont[<...>]{<...>}' to define
-(xeCJK)                it.
 
-)
-\tf@toc=\write5
-\openout5 = `R10A21126.toc'.
+Overfull \hbox (47.39958pt too wide) in paragraph at lines 42--76
+\T1/TeXGyreTermes(0)/m/it/14.4 Einkommensbesteuerung \TU/DFKai-SB(1)/m/n/14 行 位 置。|  行 位 置。| \T1/TeXGyreTermes(0)/m/it/14.4 Prin-zip der Ist-Einkommensbesteuerung
+ []
 
- (./R10A21126.lot)
-\tf@lot=\write6
-\openout6 = `R10A21126.lot'.
 
- [2
+Overfull \hbox (67.64557pt too wide) in paragraph at lines 42--76
+\T1/TeXGyreTermes(0)/m/it/14.4 Ist-Einkommensbesteuerung \TU/DFKai-SB(1)/m/n/14 行 位 置。|  行 位 置。| \T1/TeXGyreTermes(0)/m/it/14.4 Prin-zip der Ist-Einkommensbesteuerung
+ []
 
-] [1
 
-] [2] [3] [4] [5] [6] [7] [8] [9] (./table01.tex
+Overfull \hbox (67.64557pt too wide) in paragraph at lines 42--76
+\T1/TeXGyreTermes(0)/m/it/14.4 Ist-Einkommensbesteuerung \TU/DFKai-SB(1)/m/n/14 行 位 置。|  行 位 置。| \T1/TeXGyreTermes(0)/m/it/14.4 Prin-zip der Ist-Einkommensbesteuerung
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [10] [11] [12] [13] [14]
-Missing character: There is no ─ (U+2500) in font TeX Gyre Termes/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ─ (U+2500) in font TeX Gyre Termes/OT:script=latn;language=dflt;mapping=tex-text;!
-[15] [16] 
+Overfull \hbox (67.64557pt too wide) in paragraph at lines 42--76
+\T1/TeXGyreTermes(0)/m/it/14.4 Ist-Einkommensbesteuerung \TU/DFKai-SB(1)/m/n/14 行 位 置。|  行 位 置。| \T1/TeXGyreTermes(0)/m/it/14.4 Prin-zip der Ist-Einkommensbesteuerung
+ []
+
+
+Overfull \hbox (67.64557pt too wide) in paragraph at lines 42--76
+\T1/TeXGyreTermes(0)/m/it/14.4 Ist-Einkommensbesteuerung \TU/DFKai-SB(1)/m/n/14 行 位 置。|  行 位 置。| \T1/TeXGyreTermes(0)/m/it/14.4 Prin-zip der Ist-Einkommensbesteuerung
+ []
+
+
+Overfull \hbox (67.64557pt too wide) in paragraph at lines 42--76
+\T1/TeXGyreTermes(0)/m/it/14.4 Ist-Einkommensbesteuerung \TU/DFKai-SB(1)/m/n/14 行 位 置。|  行 位 置。| \T1/TeXGyreTermes(0)/m/it/14.4 Prin-zip der Ist-Einkommensbesteuerung
+ []
+
+
+Overfull \hbox (67.64557pt too wide) in paragraph at lines 42--76
+\T1/TeXGyreTermes(0)/m/it/14.4 Ist-Einkommensbesteuerung \TU/DFKai-SB(1)/m/n/14 行 位 置。|  行 位 置。| \T1/TeXGyreTermes(0)/m/it/14.4 Prin-zip der Ist-Einkommensbesteuerung
+ []
+
+[1
+
+]
+Missing character: There is no • ("2022) in font ecrm1440!
+
 AED: lastpage setting LastPage
-[17] [18] (./R10A21126.aux)
-Package rerunfilecheck Info: File `R10A21126.out' has not changed.
-(rerunfilecheck)             Checksum: CF2B9CA90C15C41673EE3C6C6F2E86F7;2561.
-Package logreq Info: Writing requests to 'R10A21126.run.xml'.
-\openout1 = `R10A21126.run.xml'.
+[2] (./R10A21126.aux)
 
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `R10A21126.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28341 strings out of 475848
- 634315 string characters out of 5801585
- 1591839 words of memory out of 5000000
- 49036 multiletter control sequences out of 15000+600000
- 475903 words of font info for 100 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 77i,12n,90p,832b,5199s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 19524 strings out of 475848
+ 418530 string characters out of 5801585
+ 815899 words of memory out of 5000000
+ 40314 multiletter control sequences out of 15000+600000
+ 471966 words of font info for 53 fonts, out of 8000000 for 9000
+ 1351 hyphenation exceptions out of 8191
+ 77i,11n,88p,325b,352s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on R10A21126.pdf (20 pages).
+Output written on R10A21126.pdf (2 pages).

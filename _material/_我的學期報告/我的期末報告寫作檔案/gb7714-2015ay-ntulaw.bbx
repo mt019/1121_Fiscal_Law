@@ -3570,8 +3570,8 @@ incollection,proceedings,inproceedings]{number}{%
 \NewBibliographyString{qicn}
 \NewBibliographyString{juancn}
 \DefineBibliographyStrings{english}{
-        and         = {，},%将第2和3人名间的and符号改成逗号，
-        andcn       = {，},%and本地化字符串的中文对应词
+        % and         = {、},%将第2和3人名间的and符号改成逗号，
+        % andcn       = {、},%and本地化字符串的中文对应词
         qicn ={\str@qicn},
         juancn ={卷},
         in={},
@@ -3602,7 +3602,7 @@ incollection,proceedings,inproceedings]{number}{%
   \usebibmacro{volume+number+eid}%把卷期放到年份后面
   %\newunit
   }%
-  
+
   \renewbibmacro*{volume+number+eid}{%
   \printfield{volume}%
   \iffieldundef{volume}
@@ -4022,6 +4022,7 @@ test {\ifentrytype{conference}}
 %  \newunit
 %  \usebibmacro{byeditor+others}%
 %  \newunit
+  \setunit{\printtext{頁：}}
   \usebibmacro{note+pages}%
   \iffieldequalstr{entrysubtype}{news}{}{%当是新闻时不输出修改或更新日期
   \iffieldundef{url}{}{%当没有网址时也不输出
