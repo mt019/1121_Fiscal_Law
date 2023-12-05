@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.25)  2 DEC 2023 21:05
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.25)  5 DEC 2023 17:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1020,7 +1020,7 @@ Package biblatex Info: Delimiter 'finalnamedelim' in context 'bib' already defin
 Package biblatex Info: Delimiter 'finalnamedelim' in context 'biblist' already defined, overwriting on input line 312.
 Package biblatex Info: Delimiter 'andothersdelim' in context 'bib' already defined, overwriting on input line 313.
 Package biblatex Info: Delimiter 'andothersdelim' in context 'biblist' already defined, overwriting on input line 313.
-) (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/zhlipsum/zhlipsum.sty
+ (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/zhlipsum/zhlipsum.sty
 Package: zhlipsum 2020/04/10 v1.2.0 Chinese dummy text
  (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
@@ -1060,9 +1060,34 @@ Package zhlipsum Info: Chinese dummy text "zhufu" is created. It has 110
 Package zhlipsum Info: Chinese dummy text "aspirin" is created. It has 66
 (zhlipsum)             paragraphs.
 
-))
-\@quotelevel=\count501
-\@quotereset=\count502
+)) (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen321
+\TX@old@table=\dimen322
+\TX@old@col=\dimen323
+\TX@target=\dimen324
+\TX@delta=\dimen325
+\TX@cols=\count501
+\TX@ftn=\toks36
+)) (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2021/12/15 v3.1 ragged2e Package
+\CenteringLeftskip=\skip146
+\RaggedLeftLeftskip=\skip147
+\RaggedRightLeftskip=\skip148
+\CenteringRightskip=\skip149
+\RaggedLeftRightskip=\skip150
+\RaggedRightRightskip=\skip151
+\CenteringParfillskip=\skip152
+\RaggedLeftParfillskip=\skip153
+\RaggedRightParfillskip=\skip154
+\JustifyingParfillskip=\skip155
+\CenteringParindent=\skip156
+\RaggedLeftParindent=\skip157
+\RaggedRightParindent=\skip158
+\JustifyingParindent=\skip159
+)
+\@quotelevel=\count502
+\@quotereset=\count503
  (./R10A21126.aux)
 \openout1 = `R10A21126.aux'.
 
@@ -1212,6 +1237,7 @@ Package biblatex Info: ... file 'R10A21126.bbl' found.
  (./R10A21126.bbl)
 Package biblatex Info: Reference section=0 on input line 19.
 Package biblatex Info: Reference segment=0 on input line 19.
+LaTeX Font Info:    Calculating math sizes for size <20.73596> on input line 22.
 LaTeX Font Info:    Calculating math sizes for size <14.39996> on input line 22.
  [1
 
@@ -1234,29 +1260,213 @@ Package xeCJK Warning: Unknown CJK family `\CJKsfdefault' is being ignored.
 
 ] [1
 
-] [2] [3] [4] [5] [6] [7] [8] [9] (./table01.tex
+] [2] [3]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+[]\TU/DFKai-SB(1)/m/n/12 特
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\TU/DFKai-SB(1)/m/n/12 種
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\TU/DFKai-SB(1)/m/n/12 基
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+[]\TU/DFKai-SB(1)/m/n/12 特
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\TU/DFKai-SB(1)/m/n/12 種
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\TU/DFKai-SB(1)/m/n/12 基
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+[]\TU/DFKai-SB(1)/m/n/12 歲
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\TU/DFKai-SB(1)/m/n/12 入
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\TU/DFKai-SB(1)/m/n/12 供
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\TU/DFKai-SB(1)/m/n/12 特
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\TU/DFKai-SB(1)/m/n/12 殊
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\TU/DFKai-SB(1)/m/n/12 用
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\TU/DFKai-SB(1)/m/n/12 途
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+[]\TU/DFKai-SB(1)/m/n/12 特
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\TU/DFKai-SB(1)/m/n/12 種
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\TU/DFKai-SB(1)/m/n/12 基
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+[]\TU/DFKai-SB(1)/m/n/12 歲
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\TU/DFKai-SB(1)/m/n/12 入
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\TU/DFKai-SB(1)/m/n/12 供
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\TU/DFKai-SB(1)/m/n/12 特
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\TU/DFKai-SB(1)/m/n/12 殊
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\TU/DFKai-SB(1)/m/n/12 用
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\TU/DFKai-SB(1)/m/n/12 途
+ []
+
+> Step: build the whole table.
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+[]\TU/DFKai-SB(1)/m/n/12 特
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\TU/DFKai-SB(1)/m/n/12 種
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\TU/DFKai-SB(1)/m/n/12 基
+ []
+
+
+Overfull \hbox (3.06728pt too wide) detected at line 202
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+[]\TU/DFKai-SB(1)/m/n/12 歲
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\TU/DFKai-SB(1)/m/n/12 入
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\TU/DFKai-SB(1)/m/n/12 供
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\TU/DFKai-SB(1)/m/n/12 特
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\TU/DFKai-SB(1)/m/n/12 殊
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\TU/DFKai-SB(1)/m/n/12 用
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\TU/DFKai-SB(1)/m/n/12 途
+ []
+
+
+Overfull \hbox (3.06728pt too wide) detected at line 202
+[] 
+ []
+
+[4] [5] [6] [7] [8] [9] [10] (./table01.tex
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [10] [11] [12] [13] [14]
+) [11] [12] [13] [14] [15] [16]
 Missing character: There is no ─ (U+2500) in font TeX Gyre Termes/OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no ─ (U+2500) in font TeX Gyre Termes/OT:script=latn;language=dflt;mapping=tex-text;!
-[15] [16] 
+[17] [18] 
 AED: lastpage setting LastPage
-[17] [18] (./R10A21126.aux)
+[19] [20] (./R10A21126.aux)
 Package rerunfilecheck Info: File `R10A21126.out' has not changed.
-(rerunfilecheck)             Checksum: CF2B9CA90C15C41673EE3C6C6F2E86F7;2561.
+(rerunfilecheck)             Checksum: 2497F81E844D0D80DFD65C2863FAA2E2;2831.
 Package logreq Info: Writing requests to 'R10A21126.run.xml'.
 \openout1 = `R10A21126.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28341 strings out of 475848
- 634315 string characters out of 5801585
- 1591839 words of memory out of 5000000
- 49036 multiletter control sequences out of 15000+600000
- 475903 words of font info for 100 fonts, out of 8000000 for 9000
+ 28742 strings out of 475848
+ 645233 string characters out of 5801585
+ 1593728 words of memory out of 5000000
+ 49427 multiletter control sequences out of 15000+600000
+ 478593 words of font info for 109 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 77i,12n,90p,832b,5199s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 77i,12n,100p,1130b,5199s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on R10A21126.pdf (20 pages).
+Output written on R10A21126.pdf (22 pages).

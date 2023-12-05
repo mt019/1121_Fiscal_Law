@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{ragged2e}
+
+
+\begin{document}
+\begin{table}
+\centering
+\caption{基金分類}
+\label{tab:classification_of_funds}
+\begin{tabular}{|>{\centering\hspace{0pt}}m{0.085\linewidth}|>{\hspace{0pt}}m{0.133\linewidth}|>{\centering\hspace{0pt}}m{0.117\linewidth}|>{\hspace{0pt}}m{0.456\linewidth}|>{\hspace{0pt}}m{0.148\linewidth}|} 
+\hline
+\multicolumn{3}{|>{\hspace{0pt}}m{0.335\linewidth}|}{\textbf{類型}}                                                         & \multicolumn{2}{>{\hspace{0pt}}m{0.604\linewidth}|}{\textbf{描述}}                                                                                  \\ 
+\hline
+\multicolumn{3}{|>{\hspace{0pt}}m{0.335\linewidth}|}{普通基金}                                                                & \multicolumn{2}{>{\hspace{0pt}}m{0.604\linewidth}|}{歲入供一般用途者}                                                                                     \\ 
+\hline
+\multirow{6}{0.085\linewidth}{\hspace{0pt}\Centering{}特種基金} & \multicolumn{2}{>{\hspace{0pt}}m{0.25\linewidth}|}{營業基金}    & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.456\linewidth}|}{供營業循環運用者}                    & \multirow{6}{0.148\linewidth}{\hspace{0pt}歲入供特殊用途者}  \\ 
+\cline{2-4}
+                                                            & \multirow{4}{0.133\linewidth}{\hspace{0pt}非營業特種基金} & 債務基金   & 依法定或約定之條件，籌措財源供償還債本之用者                                                                     &                                                      \\ 
+\cline{3-4}
+                                                            &                                                    & 作業基金   & 凡經付出仍可收回，而非用於營業者                                                                           &                                                      \\ 
+\cline{3-4}
+                                                            &                                                    & 特別收入基金 & 有特定收入來源而供特殊用途者                                                                             &                                                      \\ 
+\cline{3-4}
+                                                            &                                                    & 資本計畫基金 & 處理政府機關重大公共工程建設計畫者                                                                          &                                                      \\ 
+\cline{2-4}
+                                                            & \multicolumn{2}{>{\hspace{0pt}}m{0.25\linewidth}|}{信託基金}    & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.456\linewidth}|}{為國內外機關、團體或私人之利益，依所定條件管理或處分者} &                                                      \\
+\hline
+\end{tabular}
+\end{table}
+\end{document}
