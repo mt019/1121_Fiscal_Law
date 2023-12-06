@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.25)  5 DEC 2023 17:54
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.25)  6 DEC 2023 01:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1069,7 +1069,7 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@delta=\dimen325
 \TX@cols=\count501
 \TX@ftn=\toks36
-)) (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+) (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2021/12/15 v3.1 ragged2e Package
 \CenteringLeftskip=\skip146
 \RaggedLeftLeftskip=\skip147
@@ -1085,9 +1085,218 @@ Package: ragged2e 2021/12/15 v3.1 ragged2e Package
 \RaggedLeftParindent=\skip157
 \RaggedRightParindent=\skip158
 \JustifyingParindent=\skip159
+) (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks37
+\pgfutil@tempdima=\dimen326
+\pgfutil@tempdimb=\dimen327
+ (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box99
+) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+ (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+ (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks38
+\pgfkeys@temptoks=\toks39
+ (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks40
+))
+\pgf@x=\dimen328
+\pgf@y=\dimen329
+\pgf@xa=\dimen330
+\pgf@ya=\dimen331
+\pgf@xb=\dimen332
+\pgf@yb=\dimen333
+\pgf@xc=\dimen334
+\pgf@yc=\dimen335
+\pgf@xd=\dimen336
+\pgf@yd=\dimen337
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count502
+\c@pgf@countb=\count503
+\c@pgf@countc=\count504
+\c@pgf@countd=\count505
+\t@pgf@toka=\toks41
+\t@pgf@tokb=\toks42
+\t@pgf@tokc=\toks43
+\pgf@sys@id@count=\count506
+ (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
-\@quotelevel=\count502
-\@quotereset=\count503
+Driver file for pgf: pgfsys-xetex.def
+ (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+File: pgfsys-xetex.def 2021/05/15 v3.1.9a (3.1.9a)
+ (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2021/05/15 v3.1.9a (3.1.9a)
+ (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)
+\pgfsys@objnum=\count507
+))) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count508
+\pgfsyssoftpath@bigbuffer@items=\count509
+) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 227.
+ (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+ (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen338
+\pgfmath@count=\count510
+\pgfmath@box=\box100
+\pgfmath@toks=\toks44
+\pgfmath@stack@operand=\toks45
+\pgfmath@stack@operation=\toks46
+) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count511
+)) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen339
+\pgf@picmaxx=\dimen340
+\pgf@picminy=\dimen341
+\pgf@picmaxy=\dimen342
+\pgf@pathminx=\dimen343
+\pgf@pathmaxx=\dimen344
+\pgf@pathminy=\dimen345
+\pgf@pathmaxy=\dimen346
+\pgf@xx=\dimen347
+\pgf@xy=\dimen348
+\pgf@yx=\dimen349
+\pgf@yy=\dimen350
+\pgf@zx=\dimen351
+\pgf@zy=\dimen352
+) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen353
+\pgf@path@lasty=\dimen354
+) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen355
+\pgf@shorten@start@additional=\dimen356
+) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box101
+\pgf@hbox=\box102
+\pgf@layerbox@main=\box103
+\pgf@picture@serial@count=\count512
+) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen357
+) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen358
+\pgf@pt@y=\dimen359
+\pgf@pt@temp=\dimen360
+) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen361
+) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen362
+\pgf@sys@shading@range@num=\count513
+\pgf@shadingcount=\count514
+) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box104
+)) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box105
+) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen363
+\pgf@nodesepend=\dimen364
+) (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+)) (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/pgf/math/pgfmath.sty (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+ (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen365
+\pgffor@skip=\dimen366
+\pgffor@stack=\toks47
+\pgffor@toks=\toks48
+)) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+ (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count515
+\pgfplotmarksize=\dimen367
+)
+\tikz@lastx=\dimen368
+\tikz@lasty=\dimen369
+\tikz@lastxsaved=\dimen370
+\tikz@lastysaved=\dimen371
+\tikz@lastmovetox=\dimen372
+\tikz@lastmovetoy=\dimen373
+\tikzleveldistance=\dimen374
+\tikzsiblingdistance=\dimen375
+\tikz@figbox=\box106
+\tikz@figbox@bg=\box107
+\tikz@tempbox=\box108
+\tikz@tempbox@bg=\box109
+\tikztreelevel=\count516
+\tikznumberofchildren=\count517
+\tikznumberofcurrentchild=\count518
+\tikz@fig@count=\count519
+ (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count520
+\pgfmatrixcurrentcolumn=\count521
+\pgf@matrix@numberofcolumns=\count522
+)
+\tikz@expandcount=\count523
+ (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowinset=\dimen376
+\pgfarrowlength=\dimen377
+\pgfarrowwidth=\dimen378
+\pgfarrowlinewidth=\dimen379
+) (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+\@quotelevel=\count524
+\@quotereset=\count525
  (./R10A21126.aux)
 \openout1 = `R10A21126.aux'.
 
@@ -1209,18 +1418,14 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 19.
-(d:/MaakApp/texlive/2022/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
- (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: xetex.def on input line 149.
- (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 Package hyperref Info: Link coloring ON on input line 19.
- (./R10A21126.out) (./R10A21126.out)
-\@outlinefile=\write4
-\openout4 = `R10A21126.out'.
+(./R10A21126.out) (./R10A21126.out)
+\@outlinefile=\write5
+\openout5 = `R10A21126.out'.
 
+ (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/ninecolors/ninecolors.sty
+Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
+)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -1249,18 +1454,18 @@ Package xeCJK Warning: Unknown CJK family `\CJKsfdefault' is being ignored.
 (xeCJK)                it.
 
 )
-\tf@toc=\write5
-\openout5 = `R10A21126.toc'.
+\tf@toc=\write6
+\openout6 = `R10A21126.toc'.
 
  (./R10A21126.lot)
-\tf@lot=\write6
-\openout6 = `R10A21126.lot'.
+\tf@lot=\write7
+\openout7 = `R10A21126.lot'.
 
  [2
 
 ] [1
 
-] [2] [3]
+] [2] [3] (./table02.tex
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1269,182 +1474,182 @@ Package xeCJK Warning: Unknown CJK family `\CJKsfdefault' is being ignored.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 []\TU/DFKai-SB(1)/m/n/12 特
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \TU/DFKai-SB(1)/m/n/12 種
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \TU/DFKai-SB(1)/m/n/12 基
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 []\TU/DFKai-SB(1)/m/n/12 特
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \TU/DFKai-SB(1)/m/n/12 種
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \TU/DFKai-SB(1)/m/n/12 基
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 []\TU/DFKai-SB(1)/m/n/12 歲
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \TU/DFKai-SB(1)/m/n/12 入
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \TU/DFKai-SB(1)/m/n/12 供
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \TU/DFKai-SB(1)/m/n/12 特
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \TU/DFKai-SB(1)/m/n/12 殊
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \TU/DFKai-SB(1)/m/n/12 用
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \TU/DFKai-SB(1)/m/n/12 途
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 []\TU/DFKai-SB(1)/m/n/12 特
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \TU/DFKai-SB(1)/m/n/12 種
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \TU/DFKai-SB(1)/m/n/12 基
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 []\TU/DFKai-SB(1)/m/n/12 歲
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \TU/DFKai-SB(1)/m/n/12 入
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \TU/DFKai-SB(1)/m/n/12 供
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \TU/DFKai-SB(1)/m/n/12 特
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \TU/DFKai-SB(1)/m/n/12 殊
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \TU/DFKai-SB(1)/m/n/12 用
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \TU/DFKai-SB(1)/m/n/12 途
  []
 
 > Step: build the whole table.
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 []\TU/DFKai-SB(1)/m/n/12 特
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \TU/DFKai-SB(1)/m/n/12 種
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \TU/DFKai-SB(1)/m/n/12 基
  []
 
 
-Overfull \hbox (3.06728pt too wide) detected at line 202
+Overfull \hbox (3.06728pt too wide) detected at line 38
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 []\TU/DFKai-SB(1)/m/n/12 歲
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \TU/DFKai-SB(1)/m/n/12 入
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \TU/DFKai-SB(1)/m/n/12 供
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \TU/DFKai-SB(1)/m/n/12 特
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \TU/DFKai-SB(1)/m/n/12 殊
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \TU/DFKai-SB(1)/m/n/12 用
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \TU/DFKai-SB(1)/m/n/12 途
  []
 
 
-Overfull \hbox (3.06728pt too wide) detected at line 202
+Overfull \hbox (3.06728pt too wide) detected at line 38
 [] 
  []
 
-[4] [5] [6] [7] [8] [9] [10] (./table01.tex
+) [4] [5] [6] [7] [8] [9] [10] (./table01.tex
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1456,17 +1661,22 @@ AED: lastpage setting LastPage
 [19] [20] (./R10A21126.aux)
 Package rerunfilecheck Info: File `R10A21126.out' has not changed.
 (rerunfilecheck)             Checksum: 2497F81E844D0D80DFD65C2863FAA2E2;2831.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'R10A21126.run.xml'.
 \openout1 = `R10A21126.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28742 strings out of 475848
- 645233 string characters out of 5801585
- 1593728 words of memory out of 5000000
- 49427 multiletter control sequences out of 15000+600000
+ 40388 strings out of 475848
+ 901679 string characters out of 5801585
+ 1843563 words of memory out of 5000000
+ 60839 multiletter control sequences out of 15000+600000
  478593 words of font info for 109 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 77i,12n,100p,1130b,5199s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,12n,103p,1130b,5199s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on R10A21126.pdf (22 pages).
