@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.25)  6 DEC 2023 01:30
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.25)  10 DEC 2023 23:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1649,6 +1649,9 @@ Overfull \hbox (3.06728pt too wide) detected at line 38
 [] 
  []
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 ) [4] [5] [6] [7] [8] [9] [10] (./table01.tex
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1661,11 +1664,6 @@ AED: lastpage setting LastPage
 [19] [20] (./R10A21126.aux)
 Package rerunfilecheck Info: File `R10A21126.out' has not changed.
 (rerunfilecheck)             Checksum: 2497F81E844D0D80DFD65C2863FAA2E2;2831.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'R10A21126.run.xml'.
 \openout1 = `R10A21126.run.xml'.
 
@@ -1673,7 +1671,7 @@ Package logreq Info: Writing requests to 'R10A21126.run.xml'.
 Here is how much of TeX's memory you used:
  40388 strings out of 475848
  901679 string characters out of 5801585
- 1843563 words of memory out of 5000000
+ 1855529 words of memory out of 5000000
  60839 multiletter control sequences out of 15000+600000
  478593 words of font info for 109 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

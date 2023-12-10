@@ -1347,7 +1347,7 @@
            familyi={廖\bibinitperiod}}}%
       }
       \list{institution}{1}{%
-        {國立政治大學}%
+        {國立政治大學經營管理碩士學程非營利事業管理組，碩士論文}%
       }
       \list{language}{1}{%
         {chinese}%
@@ -1372,7 +1372,7 @@
       \field{lansortorder}{1}
       \field{month}{1}
       \field{title}{我國非營業特種基金監督機制之研究}
-      \field{type}{博士學位論文}
+      \field{type}{mathesis}
       \field{urlday}{12}
       \field{urlmonth}{10}
       \field{urlyear}{2023}

@@ -2190,10 +2190,11 @@ test {\iftoggle{iftlseven}}%biblatex<=3.7
 %   原理方法:set方法可以参考3.11.5 Entry Sets，4.11.1 Entry Sets
 %   这里调整一下两种语言参考文献的间隔，源来自biblatex.def
 \renewcommand*{\entrysetpunct}{\adddot\par\nobreak}%ay样式用par也可以，因为没有悬挂对齐问题
+
 \renewcommand*{\bibpagespunct}{
   % \addcomma
-  \printtext{，\printtext{頁}} 
-  % \addthinspace
+  % \printtext{，\printtext{頁}} 
+  \addthinspace
   }%%页码引用格式的修改，修改为用冒号
 % 改用逗號！2023/12/02
 %    2021.08.19，增加出版地和出版社之间的标点，hzz
@@ -2309,7 +2310,7 @@ test {\iftoggle{iftlseven}}%biblatex<=3.7
 \DeclareFieldFormat{booktitle}{\mkbibemph{##1}}
 \DeclareFieldFormat{url}{\mkbibacro{URL}\addcolon\space\url{##1}}
 \DeclareFieldFormat{titlecase}{##1}
-\DeclareFieldFormat{pages}{\mkpageprefix[bookpagination]{##1}}
+% \DeclareFieldFormat{pages}{\mkpageprefix[bookpagination]{##1}}
 }
 
 %
@@ -3631,7 +3632,9 @@ incollection,proceedings,inproceedings]{number}{%
   %\printfield{note}%
   \iffieldundef{pages}{}{%
   \setunit{\bibpagespunct}%
-  \printfield{pages}}%
+  \printtext{頁}
+  \printfield{pages}
+  }%
   %\newunit
   }
 
@@ -4022,7 +4025,7 @@ test {\ifentrytype{conference}}
 %  \newunit
 %  \usebibmacro{byeditor+others}%
 %  \newunit
-  \setunit{\printtext{頁：}}
+  % \setunit{\printtext{頁：}}
   \usebibmacro{note+pages}%
   \iffieldequalstr{entrysubtype}{news}{}{%当是新闻时不输出修改或更新日期
   \iffieldundef{url}{}{%当没有网址时也不输出
