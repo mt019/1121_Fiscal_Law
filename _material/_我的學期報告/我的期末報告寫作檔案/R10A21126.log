@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.25)  10 DEC 2023 23:46
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.25)  12 DEC 2023 11:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -600,7 +600,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip115
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 185.
+Package hyperref Info: Option `colorlinks' set `true' on input line 187.
  (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/tools/array.sty
 Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen277
@@ -984,42 +984,42 @@ Package biblatex Info: ... and expl3
  (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
 ))
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'cite' already defined, overwriting on input line 251.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'parencite' already defined, overwriting on input line 251.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'pagescite' already defined, overwriting on input line 251.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'textcite' already defined, overwriting on input line 253.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'cite' already defined, overwriting on input line 255.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'parencite' already defined, overwriting on input line 255.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'pagescite' already defined, overwriting on input line 255.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'textcite' already defined, overwriting on input line 256.
-Package biblatex Info: Delimiter 'nametitledelim' in context '' already defined, overwriting on input line 258.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'cite' already defined, overwriting on input line 277.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'parencite' already defined, overwriting on input line 277.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'pagescite' already defined, overwriting on input line 277.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'citep' already defined, overwriting on input line 277.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'textcite' already defined, overwriting on input line 279.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'authornumcite' already defined, overwriting on input line 279.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'citet' already defined, overwriting on input line 279.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'cite' already defined, overwriting on input line 281.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'parencite' already defined, overwriting on input line 281.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'pagescite' already defined, overwriting on input line 281.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'citep' already defined, overwriting on input line 281.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'textcite' already defined, overwriting on input line 283.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'authornumcite' already defined, overwriting on input line 283.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'citet' already defined, overwriting on input line 283.
-Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting on input line 289.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defined, overwriting on input line 290.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already defined, overwriting on input line 290.
-Package biblatex Info: Delimiter 'bibpagespunct' in context '' already defined, overwriting on input line 291.
-Package biblatex Info: Delimiter 'multinamedelim' in context '' already defined, overwriting on input line 295.
-Package biblatex Info: Delimiter 'finalnamedelim' in context '' already defined, overwriting on input line 296.
-Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined, overwriting on input line 297.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defined, overwriting on input line 310.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already defined, overwriting on input line 310.
-Package biblatex Info: Delimiter 'finalnamedelim' in context 'bib' already defined, overwriting on input line 312.
-Package biblatex Info: Delimiter 'finalnamedelim' in context 'biblist' already defined, overwriting on input line 312.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'bib' already defined, overwriting on input line 313.
-Package biblatex Info: Delimiter 'andothersdelim' in context 'biblist' already defined, overwriting on input line 313.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'cite' already defined, overwriting on input line 259.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'parencite' already defined, overwriting on input line 259.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'pagescite' already defined, overwriting on input line 259.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'textcite' already defined, overwriting on input line 261.
+Package biblatex Info: Delimiter 'andothersdelim' in context 'cite' already defined, overwriting on input line 263.
+Package biblatex Info: Delimiter 'andothersdelim' in context 'parencite' already defined, overwriting on input line 263.
+Package biblatex Info: Delimiter 'andothersdelim' in context 'pagescite' already defined, overwriting on input line 263.
+Package biblatex Info: Delimiter 'andothersdelim' in context 'textcite' already defined, overwriting on input line 264.
+Package biblatex Info: Delimiter 'nametitledelim' in context '' already defined, overwriting on input line 266.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'cite' already defined, overwriting on input line 285.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'parencite' already defined, overwriting on input line 285.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'pagescite' already defined, overwriting on input line 285.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'citep' already defined, overwriting on input line 285.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'textcite' already defined, overwriting on input line 287.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'authornumcite' already defined, overwriting on input line 287.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'citet' already defined, overwriting on input line 287.
+Package biblatex Info: Delimiter 'andothersdelim' in context 'cite' already defined, overwriting on input line 289.
+Package biblatex Info: Delimiter 'andothersdelim' in context 'parencite' already defined, overwriting on input line 289.
+Package biblatex Info: Delimiter 'andothersdelim' in context 'pagescite' already defined, overwriting on input line 289.
+Package biblatex Info: Delimiter 'andothersdelim' in context 'citep' already defined, overwriting on input line 289.
+Package biblatex Info: Delimiter 'andothersdelim' in context 'textcite' already defined, overwriting on input line 291.
+Package biblatex Info: Delimiter 'andothersdelim' in context 'authornumcite' already defined, overwriting on input line 291.
+Package biblatex Info: Delimiter 'andothersdelim' in context 'citet' already defined, overwriting on input line 291.
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting on input line 297.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defined, overwriting on input line 298.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already defined, overwriting on input line 298.
+Package biblatex Info: Delimiter 'bibpagespunct' in context '' already defined, overwriting on input line 299.
+Package biblatex Info: Delimiter 'multinamedelim' in context '' already defined, overwriting on input line 305.
+Package biblatex Info: Delimiter 'finalnamedelim' in context '' already defined, overwriting on input line 306.
+Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined, overwriting on input line 307.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defined, overwriting on input line 320.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already defined, overwriting on input line 320.
+Package biblatex Info: Delimiter 'finalnamedelim' in context 'bib' already defined, overwriting on input line 322.
+Package biblatex Info: Delimiter 'finalnamedelim' in context 'biblist' already defined, overwriting on input line 322.
+Package biblatex Info: Delimiter 'andothersdelim' in context 'bib' already defined, overwriting on input line 323.
+Package biblatex Info: Delimiter 'andothersdelim' in context 'biblist' already defined, overwriting on input line 323.
  (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/zhlipsum/zhlipsum.sty
 Package: zhlipsum 2020/04/10 v1.2.0 Chinese dummy text
  (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
@@ -1294,9 +1294,33 @@ File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: tikzlibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
  (d:/MaakApp/texlive/2022/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)))
-\@quotelevel=\count524
-\@quotereset=\count525
+)) (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+ (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen380
+\captionmargin=\dimen381
+\caption@leftmargin=\dimen382
+\caption@rightmargin=\dimen383
+\caption@width=\dimen384
+\caption@indent=\dimen385
+\caption@parindent=\dimen386
+\caption@hangindent=\dimen387
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count524
+\c@continuedfloat=\count525
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+ (d:/MaakApp/texlive/2022/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+Package caption Info: wrapfig package is loaded.
+))
+\@quotelevel=\count526
+\@quotereset=\count527
  (./R10A21126.aux)
 \openout1 = `R10A21126.aux'.
 
@@ -1442,11 +1466,46 @@ Package biblatex Info: ... file 'R10A21126.bbl' found.
  (./R10A21126.bbl)
 Package biblatex Info: Reference section=0 on input line 19.
 Package biblatex Info: Reference segment=0 on input line 19.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Calculating math sizes for size <20.73596> on input line 22.
 LaTeX Font Info:    Calculating math sizes for size <14.39996> on input line 22.
  [1
 
-] (./R10A21126.toc
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=731.23584pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.79997pt plus 4.79947pt minus 2.4005pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ (./R10A21126.toc
 
 Package xeCJK Warning: Unknown CJK family `\CJKsfdefault' is being ignored.
 (xeCJK)                
@@ -1461,9 +1520,15 @@ Package xeCJK Warning: Unknown CJK family `\CJKsfdefault' is being ignored.
 \tf@lot=\write7
 \openout7 = `R10A21126.lot'.
 
+ (./R10A21126.lof)
+\tf@lof=\write8
+\openout8 = `R10A21126.lof'.
+
  [2
 
+
 ] [1
+
 
 ] [2] [3] (./table02.tex
 > Step: init table outer spec.
@@ -1474,185 +1539,192 @@ Package xeCJK Warning: Unknown CJK family `\CJKsfdefault' is being ignored.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 []\TU/DFKai-SB(1)/m/n/12 特
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 \TU/DFKai-SB(1)/m/n/12 種
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 \TU/DFKai-SB(1)/m/n/12 基
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 []\TU/DFKai-SB(1)/m/n/12 特
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 \TU/DFKai-SB(1)/m/n/12 種
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 \TU/DFKai-SB(1)/m/n/12 基
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 []\TU/DFKai-SB(1)/m/n/12 歲
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 \TU/DFKai-SB(1)/m/n/12 入
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 \TU/DFKai-SB(1)/m/n/12 供
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 \TU/DFKai-SB(1)/m/n/12 特
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 \TU/DFKai-SB(1)/m/n/12 殊
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 \TU/DFKai-SB(1)/m/n/12 用
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 \TU/DFKai-SB(1)/m/n/12 途
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 []\TU/DFKai-SB(1)/m/n/12 特
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 \TU/DFKai-SB(1)/m/n/12 種
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 \TU/DFKai-SB(1)/m/n/12 基
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 []\TU/DFKai-SB(1)/m/n/12 歲
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 \TU/DFKai-SB(1)/m/n/12 入
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 \TU/DFKai-SB(1)/m/n/12 供
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 \TU/DFKai-SB(1)/m/n/12 特
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 \TU/DFKai-SB(1)/m/n/12 殊
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 \TU/DFKai-SB(1)/m/n/12 用
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 \TU/DFKai-SB(1)/m/n/12 途
  []
 
 > Step: build the whole table.
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 []\TU/DFKai-SB(1)/m/n/12 特
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 \TU/DFKai-SB(1)/m/n/12 種
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 \TU/DFKai-SB(1)/m/n/12 基
  []
 
 
-Overfull \hbox (3.06728pt too wide) detected at line 38
+Overfull \hbox (3.06728pt too wide) detected at line 39
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 []\TU/DFKai-SB(1)/m/n/12 歲
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 \TU/DFKai-SB(1)/m/n/12 入
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 \TU/DFKai-SB(1)/m/n/12 供
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 \TU/DFKai-SB(1)/m/n/12 特
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 \TU/DFKai-SB(1)/m/n/12 殊
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 \TU/DFKai-SB(1)/m/n/12 用
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 \TU/DFKai-SB(1)/m/n/12 途
  []
 
 
-Overfull \hbox (3.06728pt too wide) detected at line 38
+Overfull \hbox (3.06728pt too wide) detected at line 39
 [] 
  []
 
+) [4]
+File: img/income.png Graphic file (type bmp)
+<img/income.png>
+File: img/structure2.png Graphic file (type bmp)
+<img/structure2.png>
+ [5] [6]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Package biblatex Warning: '蔡茂寅（1998）' undefined or not a name list
+(biblatex)                at entry 'CaiMaoYin1998' on input line 240.
 
-) [4] [5] [6] [7] [8] [9] [10] (./table01.tex
+[7] [8] [9] [10] (./table01.tex
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1663,18 +1735,18 @@ Missing character: There is no ─ (U+2500) in font TeX Gyre Termes/OT:script=la
 AED: lastpage setting LastPage
 [19] [20] (./R10A21126.aux)
 Package rerunfilecheck Info: File `R10A21126.out' has not changed.
-(rerunfilecheck)             Checksum: 2497F81E844D0D80DFD65C2863FAA2E2;2831.
+(rerunfilecheck)             Checksum: 7F449CF93F14E3484840601FD3F781AF;2797.
 Package logreq Info: Writing requests to 'R10A21126.run.xml'.
 \openout1 = `R10A21126.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40388 strings out of 475848
- 901679 string characters out of 5801585
- 1855529 words of memory out of 5000000
- 60839 multiletter control sequences out of 15000+600000
+ 41800 strings out of 475848
+ 932542 string characters out of 5801585
+ 1866143 words of memory out of 5000000
+ 62234 multiletter control sequences out of 15000+600000
  478593 words of font info for 109 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,12n,103p,1130b,5199s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,12n,120p,1130b,5199s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on R10A21126.pdf (22 pages).

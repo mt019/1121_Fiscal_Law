@@ -418,31 +418,37 @@
             \ifcsstring{@mpfn}{mpfootnote}{\@alph\c@mpfootnote}{\thefootnote}%
             }}%
         }%
-        {\csxdef{sec\arabic{refsection}\arabic{page}et\thefield{entrykey}}{%
+        {\csxdef{sec\arabic{refsection}
+        \arabic{page}
+        et\thefield{entrykey}}{%
         \ifcsstring{@mpfn}{mpfootnote}{\@alph\c@mpfootnote}{\thefootnote}%
         %判断在minipage中比较麻烦，这里使用\@mpfn的定义进行判断
         }}%
     }
 
-    %
+          %
     %重定义\footfullcite使完成gb7714-2015的脚注文献要求
     \DeclareCiteCommand{\footfullcite}[\mkbibfootnote]%
-      {\defcounter{maxnames}{\blx@maxbibnames}%局部定义maxnames和minnames计数器
-       \defcounter{minnames}{\blx@minbibnames}%使footfullcite内的作者输出与正文文献表中的一致。
-       \usebibmacro{prenote}%
-        \renewbibmacro*{postnote}{%
-            \iffieldundef{postnote}%
-            {}{\setunit{\addcolon\addspace}\printtext{\thefield{postnote}}}}%由于ay样式中没有修改postnote域，此处因为格式需要不使用默认域格式
-       }%
-      {\usebibmacro{citesavefn}%
-          \ifcsdef{labelsec\arabic{refsection}\arabic{page}et\thefield{entrykey}}%
-          % {\csuse{labelsec\arabic{refsection}\arabic{page}et\thefield{entrykey}}\nopunct}%
-          {\csuse{labelsec\arabic{refsection}\arabic{page}et\thefield{entrykey}}}%
-          {\usedriver{\DeclareNameAlias{sortname}{default}}{\thefield{entrytype}}}%
-      }%
-      {\multicitedelim}%
-      {\usebibmacro{postnote}}
+    {\defcounter{maxnames}{\blx@maxbibnames}%局部定义maxnames和minnames计数器
+     \defcounter{minnames}{\blx@minbibnames}%使footfullcite内的作者输出与正文文献表中的一致。
+     \usebibmacro{prenote}%
+      \renewbibmacro*{postnote}{%
+          \iffieldundef{postnote}%
+          {}{\setunit{，\addspace}\printtext{\thefield{postnote}}}}%由于ay样式中没有修改postnote域，此处因为格式需要不使用默认域格式
+          % {}{\setunit{\addcolon\addspace}\printtext{\thefield{postnote}}}}%由于ay样式中没有修改postnote域，此处因为格式需要不使用默认域格式
+     }%
+    {\usebibmacro{citesavefn}%
+        \ifcsdef{labelsec\arabic{refsection}\arabic{page}et\thefield{entrykey}}%
+        % {\csuse{labelsec\arabic{refsection}\arabic{page}et\thefield{entrykey}}\nopunct}%
+        {\csuse{labelsec\arabic{refsection}
+        \arabic{page}
+        et\thefield{entrykey}}}%
+        {\usedriver{\DeclareNameAlias{sortname}{default}}{\thefield{entrytype}}}%
+    }%
+    {\multicitedelim}%
+    {\usebibmacro{postnote}}
     }
+    
 
 
     %
@@ -495,7 +501,7 @@
     \def\str@volumecn{卷}
     \def\str@numbercn{册}
     \def\str@serialcn{第}
-    \def\str@sameentry{同}
+    \def\str@sameentry{同前揭註}
     \def\str@incn{見}
     % \def\str@seepagecn{頁}
     \def\str@mathesiscn{硕士学位论文}
@@ -2051,7 +2057,7 @@ test {\iftoggle{iftlseven}}%biblatex<=3.7
 %   增加一个\bibitemindent尺寸用于控制list环境的itemindent
 %   v1.0l，20180615，hzz
 \newlength{\bibitemindent}
-\setlength{\bibhang}{1em}
+\setlength{\bibhang}{-1em}
 \setlength{\bibitemindent}{-\bibhang}
 \setlength{\bibitemsep}{4.5pt}
 \defbibenvironment{bibliography}
@@ -2069,7 +2075,7 @@ test {\iftoggle{iftlseven}}%biblatex<=3.7
 %   v1.0x,20210411,hzz,整合到gbalign选项中。
 \newcounter{refnumeric}
 \newlength{\biblabelbox}
-\setlength{\biblabelbox}{2em}
+\setlength{\biblabelbox}{0em}
 \newlength{\biblabelextend}
 \def\setaligngbnumeric{%
 \setlength{\bibitemindent}{0pt}%

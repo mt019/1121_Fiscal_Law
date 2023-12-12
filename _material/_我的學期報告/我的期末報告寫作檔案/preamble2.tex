@@ -133,7 +133,9 @@
 \renewcommand{\abstractname}{摘要} 
 \renewcommand{\contentsname}{\hfill\bfseries 目錄 \hfill} 
 \renewcommand{\listtablename}{\hfill\bfseries 表目錄 \hfill}
+\renewcommand{\listfigurename}{\hfill\bfseries 圖目錄 \hfill}
 \renewcommand{\tablename}{表}
+\renewcommand{\figurename}{圖}
 \renewcommand{\arraystretch}{1}
 
 
@@ -203,7 +205,13 @@ gbfootbibfmt = true,
 sortlocale=zh__stroke,
 citestyle=gb7714-2015ay-ntulaw,
  gbalign=gb7714-2015ay-ntulaw,
+%  gbpunctcn =true,
  gbtype = false, mergedate=true, url = false, backend=biber, defernumbers = true]{biblatex}
+
+ \AtEveryCitekey{\clearfield{pages}}
+
+ \renewcommand{\bibfootnotewrapper}[1]{%
+  \bibsentence #1}
 
 % \usepackage[style=gb7714-2015ay, sortlocale=zh__stroke,citestyle=gb7714-2015ay, gbalign=right, gbtype = false, mergedate=true, url = false, backend=biber, defernumbers = true]{biblatex}
 \addbibresource{R10A21126.bib}
@@ -222,7 +230,7 @@ citestyle=gb7714-2015ay-ntulaw,
 
 
 % 调整参考文献条目的缩进
-\setlength{\bibitemindent}{2em} % 调整首行缩进
+\setlength{\bibitemindent}{0em} % 调整首行缩进
 \setlength{\bibhang}{0em} % 调整其余行的缩进
 
 
@@ -235,7 +243,7 @@ citestyle=gb7714-2015ay-ntulaw,
 %
 % 【顺序编码制】文献表缩进控制
 % 调整顺序标签与文献内容的间距
-\setlength{\biblabelsep}{5mm}
+\setlength{\biblabelsep}{0mm}
 \setlength{\bibitemindent}{0pt}
 \setlength{\biblabelextend}{0pt}
 
@@ -290,8 +298,10 @@ citestyle=gb7714-2015ay-ntulaw,
 \DeclareDelimFormat[bib,biblist]{nameyeardelim}{，}%\addcomma\addspace
 \DeclareDelimFormat{bibpagespunct}{\iffieldequalstr{userd}{chinese}{，}{，}}%\addcomma\addspace
 \renewcommand*{\newunitpunct}{，}%\addcomma\space %，
-\renewcommand*{\finentrypunct}{\iffieldequalstr{userd}{chinese}{。}{\adddot}}
-\renewcommand*{\bibpagerefpunct}{\iffieldequalstr{userd}{chinese}{。}{\adddot}}
+\renewcommand*{\finentrypunct}{\iffieldequalstr{userd}{chinese}{。}{。}}
+% \renewcommand*{\finentrypunct}{\iffieldequalstr{userd}{chinese}{。}{\adddot}}
+\renewcommand*{\bibpagerefpunct}{\iffieldequalstr{userd}{chinese}{。}{。}}
+% \renewcommand*{\bibpagerefpunct}{\iffieldequalstr{userd}{chinese}{。}{\adddot}}
 \DeclareDelimFormat{multinamedelim}{、}%[bib,biblist]
 \DeclareDelimFormat{finalnamedelim}{，}
 \DeclareDelimFormat{andothersdelim}{，}
@@ -402,3 +412,15 @@ citestyle=gb7714-2015ay-ntulaw,
 
   \usepackage{tikz}
 \usetikzlibrary{positioning, arrows.meta, shapes.geometric}
+
+
+\usepackage{graphicx}
+\usepackage{caption}
+% \usepackage{xcolor}
+% \usepackage{grffile}
+
+% % Define a command to convert images to black and white
+% \newcommand{\bwimage}[2][]{%
+%   \includegraphics[#1]{#2}%
+% }
+
