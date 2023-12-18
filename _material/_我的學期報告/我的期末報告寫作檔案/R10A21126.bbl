@@ -446,10 +446,10 @@
       \field{urldateera}{ce}
       \true{nocite}
       \verb{urlraw}
-      \verb https://www.ly.gov.tw/Pages/List.aspx?nodeid=46243
+      \verb https://www.ly.gov.tw/Pages/List.aspx?nodeid=45302
       \endverb
       \verb{url}
-      \verb https://www.ly.gov.tw/Pages/List.aspx?nodeid=46243
+      \verb https://www.ly.gov.tw/Pages/List.aspx?nodeid=45302
       \endverb
       \keyw{LiFaYuan2021}
     \endentry
@@ -571,10 +571,10 @@
       \field{urldateera}{ce}
       \true{nocite}
       \verb{urlraw}
-      \verb https://www.ly.gov.tw/Pages/List.aspx?nodeid=45302
+      \verb https://www.ly.gov.tw/Pages/List.aspx?nodeid=46243
       \endverb
       \verb{url}
-      \verb https://www.ly.gov.tw/Pages/List.aspx?nodeid=45302
+      \verb https://www.ly.gov.tw/Pages/List.aspx?nodeid=46243
       \endverb
       \keyw{LiFaYuan2023}
     \endentry
@@ -919,6 +919,54 @@
       \endverb
       \keyw{KeGeZhong2023}
     \endentry
+    \entry{KeGeZhongBian2020}{book}{}
+      \name{editor}{1}{}{%
+        {{hash=5d6fbca6721365cc37256256b99c7ac8}{%
+           family={柯格鐘（編）},
+           familyi={柯\bibinitperiod}}}%
+      }
+      \name{namea}{1}{}{%
+        {{hash=5d6fbca6721365cc37256256b99c7ac8}{%
+           family={柯格鐘（編）},
+           familyi={柯\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {chinese}%
+      }
+      \list{location}{1}{%
+        {台北}%
+      }
+      \list{publisher}{1}{%
+        {元照}%
+      }
+      \strng{namehash}{5d6fbca6721365cc37256256b99c7ac8}
+      \strng{fullhash}{5d6fbca6721365cc37256256b99c7ac8}
+      \strng{bibnamehash}{5d6fbca6721365cc37256256b99c7ac8}
+      \strng{editorbibnamehash}{5d6fbca6721365cc37256256b99c7ac8}
+      \strng{editornamehash}{5d6fbca6721365cc37256256b99c7ac8}
+      \strng{editorfullhash}{5d6fbca6721365cc37256256b99c7ac8}
+      \strng{nameabibnamehash}{5d6fbca6721365cc37256256b99c7ac8}
+      \strng{nameanamehash}{5d6fbca6721365cc37256256b99c7ac8}
+      \strng{nameafullhash}{5d6fbca6721365cc37256256b99c7ac8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{languageid}{chinese}
+      \field{lansortorder}{1}
+      \field{month}{5}
+      \field{title}{環境公課 第一冊}
+      \field{usera}{M}
+      \field{userc}{chinese}
+      \field{userd}{chinese}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \keyw{KeGeZhongBian2020}
+    \endentry
     \entry{ZhangYongMing2021}{incollection}{}
       \name{author}{1}{}{%
         {{hash=74a8cd1c288c80daeff4522713eedea8}{%
@@ -1029,6 +1077,181 @@
       \endverb
       \keyw{ZhangYongMing2021a}
     \endentry
+    \entry{ZhangZhiWei2018}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d0216988a19ff108e2cc563fad6206f9}{%
+           family={張志偉},
+           familyi={張\bibinitperiod}}}%
+      }
+      \name{namea}{1}{}{%
+        {{hash=d0216988a19ff108e2cc563fad6206f9}{%
+           family={張志偉},
+           familyi={張\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {chinese}%
+      }
+      \strng{namehash}{d0216988a19ff108e2cc563fad6206f9}
+      \strng{fullhash}{d0216988a19ff108e2cc563fad6206f9}
+      \strng{bibnamehash}{d0216988a19ff108e2cc563fad6206f9}
+      \strng{authorbibnamehash}{d0216988a19ff108e2cc563fad6206f9}
+      \strng{authornamehash}{d0216988a19ff108e2cc563fad6206f9}
+      \strng{authorfullhash}{d0216988a19ff108e2cc563fad6206f9}
+      \strng{nameabibnamehash}{d0216988a19ff108e2cc563fad6206f9}
+      \strng{nameanamehash}{d0216988a19ff108e2cc563fad6206f9}
+      \strng{nameafullhash}{d0216988a19ff108e2cc563fad6206f9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{興大法學}
+      \field{langid}{chinese}
+      \field{languageid}{chinese}
+      \field{lansortorder}{1}
+      \field{month}{5}
+      \field{number}{23}
+      \field{title}{特別公課的憲法框架－以德國聯邦憲法法院裁判及其學理檢討為借鏡}
+      \field{urlday}{18}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{usera}{J}
+      \field{userd}{chinese}
+      \field{userf}{chinese}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{61\bibrangedash 107}
+      \range{pages}{47}
+      \verb{urlraw}
+      \verb https://www.lawbank.com.tw/treatise/pl_article.aspx?AID=P000237540
+      \endverb
+      \verb{url}
+      \verb https://www.lawbank.com.tw/treatise/pl_article.aspx?AID=P000237540
+      \endverb
+      \keyw{ZhangZhiWei2018}
+    \endentry
+    \entry{ZhangXianAn1993}{article}{}
+      \name{author}{1}{}{%
+        {{hash=88240ea3d7c6ad1fa400ea473d291054}{%
+           family={張嫻安},
+           familyi={張\bibinitperiod}}}%
+      }
+      \name{namea}{1}{}{%
+        {{hash=88240ea3d7c6ad1fa400ea473d291054}{%
+           family={張嫻安},
+           familyi={張\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {chinese}%
+      }
+      \list{publisher}{1}{%
+        {輔仁大學法律學系暨法律學研究所}%
+      }
+      \strng{namehash}{88240ea3d7c6ad1fa400ea473d291054}
+      \strng{fullhash}{88240ea3d7c6ad1fa400ea473d291054}
+      \strng{bibnamehash}{88240ea3d7c6ad1fa400ea473d291054}
+      \strng{authorbibnamehash}{88240ea3d7c6ad1fa400ea473d291054}
+      \strng{authornamehash}{88240ea3d7c6ad1fa400ea473d291054}
+      \strng{authorfullhash}{88240ea3d7c6ad1fa400ea473d291054}
+      \strng{nameabibnamehash}{88240ea3d7c6ad1fa400ea473d291054}
+      \strng{nameanamehash}{88240ea3d7c6ad1fa400ea473d291054}
+      \strng{nameafullhash}{88240ea3d7c6ad1fa400ea473d291054}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{langid}{english}
+      \field{languageid}{chinese}
+      \field{lansortorder}{1}
+      \field{month}{6}
+      \field{number}{12}
+      \field{title}{特別捐(特別費)與特種基金制度 (上)}
+      \field{urlday}{18}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{usera}{J}
+      \field{userd}{chinese}
+      \field{userf}{chinese}
+      \field{year}{1993}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 48}
+      \range{pages}{48}
+      \verb{urlraw}
+      \verb https://lawdata.com.tw/tw/detail.aspx?no=88953
+      \endverb
+      \verb{url}
+      \verb https://lawdata.com.tw/tw/detail.aspx?no=88953
+      \endverb
+      \keyw{ZhangXianAn1993}
+    \endentry
+    \entry{ZhangXianAn1994}{article}{}
+      \name{author}{1}{}{%
+        {{hash=88240ea3d7c6ad1fa400ea473d291054}{%
+           family={張嫻安},
+           familyi={張\bibinitperiod}}}%
+      }
+      \name{namea}{1}{}{%
+        {{hash=88240ea3d7c6ad1fa400ea473d291054}{%
+           family={張嫻安},
+           familyi={張\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {chinese}%
+      }
+      \list{publisher}{1}{%
+        {輔仁大學法律學系暨法律學研究所}%
+      }
+      \strng{namehash}{88240ea3d7c6ad1fa400ea473d291054}
+      \strng{fullhash}{88240ea3d7c6ad1fa400ea473d291054}
+      \strng{bibnamehash}{88240ea3d7c6ad1fa400ea473d291054}
+      \strng{authorbibnamehash}{88240ea3d7c6ad1fa400ea473d291054}
+      \strng{authornamehash}{88240ea3d7c6ad1fa400ea473d291054}
+      \strng{authorfullhash}{88240ea3d7c6ad1fa400ea473d291054}
+      \strng{nameabibnamehash}{88240ea3d7c6ad1fa400ea473d291054}
+      \strng{nameanamehash}{88240ea3d7c6ad1fa400ea473d291054}
+      \strng{nameafullhash}{88240ea3d7c6ad1fa400ea473d291054}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{langid}{english}
+      \field{languageid}{chinese}
+      \field{lansortorder}{1}
+      \field{month}{6}
+      \field{number}{13}
+      \field{title}{特別捐(特別費)與特種基金制度 (下)}
+      \field{urlday}{18}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{usera}{J}
+      \field{userd}{chinese}
+      \field{userf}{chinese}
+      \field{year}{1994}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{43\bibrangedash 74}
+      \range{pages}{32}
+      \verb{urlraw}
+      \verb https://lawdata.com.tw/tw/detail.aspx?no=88953
+      \endverb
+      \verb{url}
+      \verb https://lawdata.com.tw/tw/detail.aspx?no=88953
+      \endverb
+      \keyw{ZhangXianAn1994}
+    \endentry
     \entry{ChenWenJin2020}{article}{}
       \name{author}{1}{}{%
         {{hash=3ce57a7120f2f33241214d2be6198c11}{%
@@ -1068,7 +1291,7 @@
       \field{lansortorder}{1}
       \field{month}{6}
       \field{number}{39}
-      \field{title}{論特別公課的概念與反思──評最高行政法院104年度判字第68號判決}
+      \field{title}{論特別公課的概念與反思－評最高行政法院 104 年度判字第 68 號判決}
       \field{urlday}{12}
       \field{urlmonth}{10}
       \field{urlyear}{2023}
@@ -1079,8 +1302,8 @@
       \field{dateera}{ce}
       \field{urldateera}{ce}
       \true{nocite}
-      \field{pages}{1\bibrangedash 3}
-      \range{pages}{3}
+      \field{pages}{1\bibrangedash 63}
+      \range{pages}{63}
       \verb{urlraw}
       \verb http://lawdata.com.tw/tw/detail.aspx?no=391953
       \endverb
@@ -1125,7 +1348,7 @@
       \field{languageid}{chinese}
       \field{lansortorder}{1}
       \field{month}{9}
-      \field{number}{09}
+      \field{number}{9}
       \field{title}{特種基金預算制度之指導原則（上）}
       \field{urlday}{12}
       \field{urlmonth}{10}
@@ -1267,7 +1490,7 @@
       \endverb
       \keyw{GeKeChang2012}
     \endentry
-    \entry{GeKeChang}{book}{}
+    \entry{GeKeChang2021}{book}{}
       \name{editor}{3}{}{%
         {{hash=80e9797df6f84627d74aca5dbb239e00}{%
            family={葛克昌},
@@ -1312,12 +1535,13 @@
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{url}
+      \field{labeldatesource}{}
       \field{labelnamesource}{editor}
       \field{labeltitlesource}{title}
       \field{langid}{chinese-traditional}
       \field{languageid}{chinese}
       \field{lansortorder}{1}
+      \field{month}{2}
       \field{title}{財政法}
       \field{urlday}{13}
       \field{urlmonth}{10}
@@ -1325,6 +1549,8 @@
       \field{usera}{M}
       \field{userc}{chinese}
       \field{userd}{chinese}
+      \field{year}{2021}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \true{nocite}
       \verb{urlraw}
@@ -1333,9 +1559,9 @@
       \verb{url}
       \verb https://sharing.com.tw/product/index/2EA35
       \endverb
-      \keyw{GeKeChang}
+      \keyw{GeKeChang2021}
     \endentry
-    \entry{LiaoWanRu2006}{thesis}{}
+    \entry{LiaoWanRu2006}{online}{}
       \name{author}{1}{}{%
         {{hash=39a169f28803e09726721db5592961c6}{%
            family={廖婉汝},
@@ -1372,7 +1598,6 @@
       \field{lansortorder}{1}
       \field{month}{1}
       \field{title}{我國非營業特種基金監督機制之研究}
-      \field{type}{mathesis}
       \field{urlday}{12}
       \field{urlmonth}{10}
       \field{urlyear}{2023}
@@ -1491,7 +1716,7 @@
       \field{month}{2}
       \field{number}{16}
       \field{shorttitle}{財政法}
-      \field{title}{財政法：第四講—特種基金}
+      \field{title}{財政法：第四講——特種基金}
       \field{urlday}{12}
       \field{urlmonth}{10}
       \field{urlyear}{2023}
