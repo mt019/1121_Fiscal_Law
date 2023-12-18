@@ -910,7 +910,6 @@
       \field{year}{2023}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{urlraw}
       \verb https://sharing.com.tw/product/index/5AE64
       \endverb
@@ -1166,6 +1165,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{1}
+      \field{journaltitle}{輔仁法學}
       \field{langid}{english}
       \field{languageid}{chinese}
       \field{lansortorder}{1}
@@ -1181,7 +1181,6 @@
       \field{year}{1993}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{1\bibrangedash 48}
       \range{pages}{48}
       \verb{urlraw}
@@ -1226,6 +1225,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{1}
+      \field{journaltitle}{輔仁法學}
       \field{langid}{english}
       \field{languageid}{chinese}
       \field{lansortorder}{1}
@@ -1561,7 +1561,7 @@
       \endverb
       \keyw{GeKeChang2021}
     \endentry
-    \entry{LiaoWanRu2006}{online}{}
+    \entry{LiaoWanRu2006}{thesis}{}
       \name{author}{1}{}{%
         {{hash=39a169f28803e09726721db5592961c6}{%
            family={廖婉汝},
@@ -1598,6 +1598,7 @@
       \field{lansortorder}{1}
       \field{month}{1}
       \field{title}{我國非營業特種基金監督機制之研究}
+      \field{type}{mathesis}
       \field{urlday}{12}
       \field{urlmonth}{10}
       \field{urlyear}{2023}
