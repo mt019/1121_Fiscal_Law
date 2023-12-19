@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.25)  19 DEC 2023 02:58
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.25)  19 DEC 2023 09:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1553,22 +1553,12 @@ Package xeCJK Warning: Unknown CJK family `\CJKsfdefault' is being ignored.
 ] [1
 
 
-] (./table_budget.tex
+] [2] (./table_budget.tex
 Overfull \hbox (1.45845pt too wide) detected at line 23
 $\OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 204 729$
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [2]
-File: img/structure2bw.png Graphic file (type bmp)
-<img/structure2bw.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[3] [4] (./table02.tex
+) [3] [4] (./table02.tex
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1755,34 +1745,38 @@ Overfull \hbox (3.06728pt too wide) detected at line 39
 )
 File: img/incomebw.png Graphic file (type bmp)
 <img/incomebw.png>
- [5] [6]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5] [6]
 
 Package biblatex Warning: '張志偉（2018），同前揭註' undefined or not a name list
-(biblatex)                at entry 'ZhangZhiWei2018' on input line 255.
+(biblatex)                at entry 'ZhangZhiWei2018' on input line 295.
 
 [7]
 
 Package biblatex Warning: '蔡茂寅（1998）' undefined or not a name list
-(biblatex)                at entry 'CaiMaoYin1998' on input line 287.
+(biblatex)                at entry 'CaiMaoYin1998' on input line 327.
 
-[8] [9] [10] [11] [12] (./table01.tex [13]
+[8] [9] [10] [11] [12] (./table01.tex
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [14] [15] [16] [17] [18] [19] [20] 
+) [13] [14] [15] [16] [17] [18] [19] [20] 
 AED: lastpage setting LastPage
 [21] [22] (./R10A21126.aux)
 Package rerunfilecheck Info: File `R10A21126.out' has not changed.
-(rerunfilecheck)             Checksum: 7C893E0FFDCF9AA43E7F86E5D17A8EB8;2763.
+(rerunfilecheck)             Checksum: D07B9F48E82A4A5A19D0E07A2D7B3782;2575.
 Package logreq Info: Writing requests to 'R10A21126.run.xml'.
 \openout1 = `R10A21126.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45684 strings out of 475848
- 1053461 string characters out of 5801585
- 1947555 words of memory out of 5000000
- 66099 multiletter control sequences out of 15000+600000
+ 45667 strings out of 475848
+ 1052689 string characters out of 5801585
+ 1944361 words of memory out of 5000000
+ 66083 multiletter control sequences out of 15000+600000
  478593 words of font info for 109 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,12n,120p,1130b,5434s stack positions out of 10000i,1000n,20000p,200000b,200000s
